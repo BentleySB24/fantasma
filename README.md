@@ -1,65 +1,58 @@
-# Fantasma: Part I
+# Fantasma: Steal Any Ability. Wear Their Faces.
 
-**Play the villain. Steal their power. Wear their faces.**
+Play as a ghost that haunts a darker Hoenn. Steal abilities, identities and rob stores. Be the villain.
 
 A Pokémon Emerald ROM hack built on [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion).
 
-![Title screens](media/12_title_themes.gif)
+![Lorenzo faces Leader Mira](media/01_mira_battle.png)
 
-**[Download the latest patch (rc Ghost)](https://github.com/BentleySB24/fantasma/releases/latest)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Hackdex page](https://www.hackdex.app/hack/fantasma)
+**[Download the latest patch (rc Fire)](https://github.com/BentleySB24/fantasma/releases/latest)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Hackdex page](https://www.hackdex.app/hack/fantasma)
 
 This repository hosts release patches and bug reports. It contains no ROMs and no game data.
 
 ---
 
-You are Lorenzo della Pira, Il Fantasma: a dead man who wakes in his family's graveyard with Duskull as his starter and companion. Your return begins a dark quest through Hoenn with 50+ boss fights, from its Gym Leaders to the League and, ultimately, its gods.
+I've played Pokemon since the 90's and have always had an idea for a rom hack built around stealing abilities and applying them to ANY pokemon. Ghost typing always intrigued me growing up (big Gengar fan) and thus Fantasma (ghost in Italian) was born. I picked the Duskull line because it seemed the most likely to steal your abilities and it has the 3 stages that most starters have. Plus their art is dope.
 
-## Steal their power
-Stealing abilities is the heart of Fantasma. Defeat powerful opponents and rip their abilities out as Spirit Sigils, then equip them on any Pokémon. Collect over 100 Sigils, discover powerful combinations, and turn your enemies' greatest strengths into your own.
+## Features
 
-![Sigils in the bag](media/16_sigils_in_the_bag.gif)
-
-## Wear their faces
-Every leader you reave becomes a disguise you can wear. Rob shops, pull a vault heist, and fence stolen goods, but watch your Heat. Police cordons block gyms and shops, hunters stalk the routes, and a stolen face can get you past the law.
-
-Return to your family's Cellar HQ for shops, training, and trophies. Enter the Sanctum, where the dead you robbed fight to reclaim their faces.
-
-![Battle menu in a double battle](media/13_battle_menu_doubles.gif)
-
-## A darker Hoenn
-- Pokémon from Generations 1–9, placed by habitat.
-- New Gym Leaders, Elite Four, and Champion.
-- Custom maps, puzzles, and side quests, from the moonlit Lunar Woods to Bellgrave Abbey and sunken vaults.
-- Reworked towns, painted battle backgrounds, and character portraits.
-- Day/night cycle and optional following Pokémon.
-- Boss scouting and expanded battle information.
-- Level caps on Vanilla difficulty. Finish Part I to unlock **Unfair** and **Nuzlocke** for your next run.
-- Extensive quality of life: quest log, portable PC, portable party healing, DexNav, speed controls, and convenient move relearning.
+- 50+ boss battles
+- 100+ sigil items (stolen abilities). Works just like a nature mint. (It's very fun playing with a Huge Power Slaking or a Volt Absorb Gyarados... Trust me.) The enemies fight fire with fire and have custom abilities too!
+- Original maps, handmade in Porymap: Lunar Woods, Bellgrave Abbey and the Cellar HQ
+- Original quests: rob the mart, crack the Game Corner vault, hunt down Hoenn's gods after the League, plus a bunch of side stuff
+- Minimal grind: Cap Candy, level catch up, EV Ashes, IV Salts (like bottle caps)
+- Memory Altar: learn level up, TM, egg and move tutor moves all in one place
+- 8+ disguises: play as the ghost and steal identities as you move through the gym ranks
+- Wanted system, think GTA. The more evil stuff you do the more the heat rises and hunters come to ambush you!
+- Golden Grave - in game slot machine that gives out items, mints and some special sigils you can't get anywhere else. The hotter your heat, the better the odds.
+- Custom menu with modern graphics and a Tools section: Venom Cup (pre-poison your mons), Grave Dial (edit the time), Spirit Sight (permanent repel)
+- Tons of QoL: Life Flask party heal, improved fly, sneak, portable PC, speed controls, Litwick Candle (auto-Flash), Type Chart item, move relearning anywhere, boss scouting before big fights. Plus a dozen smaller things you'll notice.
 
 | | |
 |---|---|
-| ![Fly map](media/10_fly_map.gif) | ![Golden Grave](media/11_golden_grave.gif) |
-| ![Hall of Fame](media/14_hall_of_fame.gif) | ![Trainer card](media/15_trainer_card.gif) |
+| ![Huge Power Slaking](media/02_huge_power_slaking.png) | ![Sigils in the bag](media/16_sigils_in_the_bag.gif) |
+| ![Golden Grave](media/11_golden_grave.gif) | ![Fly map](media/10_fly_map.gif) |
+| ![Trainer card](media/15_trainer_card.gif) | ![Hall of Fame](media/14_hall_of_fame.gif) |
 
-## Beyond the League
-Becoming Champion opens the God Hunt: track down Hoenn's legendaries and take their power.
-
-Part I contains the complete Hoenn story. Saves are intended to carry into Part II. Next stop: Kanto.
+Part I is the full Hoenn story. Finish it and Unfair and Nuzlocke unlock for your next run. Part II (Kanto) is in active development.
 
 ## How to play
-1. Download **Fantasma Part I rc Ghost.zip** from the [latest release](https://github.com/BentleySB24/fantasma/releases/latest).
+
+1. Download **Fantasma Part I rc Fire.zip** from the [latest release](https://github.com/BentleySB24/fantasma/releases/latest).
 2. Patch a clean **Pokémon Emerald (USA/Europe)** ROM dumped from your own cartridge:
    - size 16,777,216 bytes, CRC32 `1F1C08FB`, SHA-1 `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
    - use [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), Floating IPS, or any BPS patcher.
-3. A correctly patched game is 33,554,432 bytes, CRC32 `CCD8EF1F`.
+3. A correctly patched game is 33,554,432 bytes, CRC32 `F84DC733`.
 4. Play on **mGBA** (tested). If your emulator asks for a save type, choose **Flash 128K**.
 
-Start a NEW GAME, save with the in-game SAVE option, and keep your save file for future versions. Stuck? START > GUIDE has a recap of what to do next and an UNSTUCK option.
+Start a NEW GAME, save with the in-game SAVE option, and keep your save file for future versions. If you get stuck, START > GUIDE has a recap and an UNSTUCK option.
 
 ## Reporting bugs
-[Open an issue](https://github.com/BentleySB24/fantasma/issues/new/choose) with the version (rc Ghost), your emulator and device, where you were and what you were doing, and a screenshot if you can.
 
-## Credits and AI use
-Fantasma is one person's project, built with AI as the dev team. Claude and Codex wrote and debugged most of the code on top of pokeemerald-expansion, ran headless-emulator testing, and ran Monte Carlo battle sims to help tune bosses, with final balance set by playtesting every fight. Gemini painted the title screen, battle backgrounds, and credits; Codex drafted the portraits, town art, and custom music; dialogue was written with AI help in a voice I set. Community art and tools are credited in [CREDITS.md](CREDITS.md) and [ASSET_CREDITS.md](ASSET_CREDITS.md). Thank you to everyone listed there.
+[Open an issue](https://github.com/BentleySB24/fantasma/issues/new/choose) with the version (rc Fire), your emulator and device, where you were and what you were doing, and a screenshot if you can.
+
+## Credits
+
+Fantasma is a one-person project. The concept, every system, the story, the maps and the balance are mine, and I've playtested every build start to finish. I used AI tools to help write code on top of pokeemerald-expansion and to draft some art (portraits, backgrounds) and edit text. Community art and tools are credited in [CREDITS.md](CREDITS.md) and [ASSET_CREDITS.md](ASSET_CREDITS.md). Thank you to everyone listed there.
 
 Fantasma is a free fan project. It is not affiliated with or endorsed by Nintendo, Game Freak, Creatures, or The Pokémon Company.
