@@ -1,4 +1,33 @@
-## Credits ✨
+# Fantasma Credits
+
+**Fantasma** by **Don Duskull**: story, design, direction and playtesting.
+
+**Engine**
+- Built on [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion) by Rom Hacking Hideout and its contributors, and on the [pret/pokeemerald](https://github.com/pret/pokeemerald) decompilation, including everyone they credit.
+- Graphical START menu: **miriamlefae** and the USM branch authors ([miriamlefae/pokeemerald-expansion](https://github.com/miriamlefae/pokeemerald-expansion)).
+
+**Sprites**
+- [Platinum OW/Trainer Sprite Pack](https://www.pokecommunity.com/threads/platinum-ow-trainer-sprite-pack-for-pokeemerald-pokefirered.537257/) by **spilledpizza**, with **TheWiggliestJiggliest**, **RichardPT**, **robloxmaster376**, **The Spriters Resource** and the **Radiant Quartz / Prismatic Platinum team**: base art for the recast Gym Leaders, Champion, Kanto cast and HQ crew.
+- **Kalarie**: Rocket Admin overworld, from the *FRLG Accurate NPC Megapack* compiled by **SoulfulLex**.
+- **spilledpizza**: base for the Kanto lab aide overworlds.
+- **hyo**: Steven and Wally overworlds.
+- **merrp** and **aarant**: Raikou, Entei, Suicune and Jirachi overworlds.
+
+**Tiles**
+- **LeoB (leob0505)**: ORAS-style Hoenn tiles and door animations, inspired by **TheDeadHeroAlistair**.
+- **Roger Wrightshoe (Gray Ninja)**: ground art.
+- Both via [Team Aqua's Asset Repo](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo).
+
+**Music**
+- Original Pokémon Emerald soundtrack. The Fantasma theme and boot bell are new to this hack.
+
+Full credits: [CREDITS.md](https://github.com/BentleySB24/fantasma/blob/main/CREDITS.md) and [ASSET_CREDITS.md](https://github.com/BentleySB24/fantasma/blob/main/ASSET_CREDITS.md).
+
+Pokémon © Nintendo, Creatures Inc. and Game Freak. Fantasma is a free, non-commercial fan project.
+
+---
+
+## pokeemerald-expansion contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -121,45 +150,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-## Other Credits
-### Fantasma Hoenn Overworld Tiles
-- **Roger Wrightshoe (aka Gray Ninja)** — plain ground, via Team Aqua's
-  Asset Repo; recolored and quantized for Fantasma's moonlit setting.
-- **LeoB (leob0505)** — ORAS-style Hoenn tiles and matching door animations,
-  via [Team Aqua's Asset Repo](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo).
-  Inspired by **TheDeadHeroAlistair** and **Pokemon Omega Ruby/Alpha Sapphire**.
-  Import and compatibility details: `docs/ASSET_CREDITS.md`.
-
-### Mega Evolution Overworld Sprite Credits:
-- [princess-phoenix](https://www.deviantart.com/princess-phoenix)
-- [larryturbo](https://www.deviantart.com/larryturbo)
-- [kidkatt](https://www.deviantart.com/kidkatt)
-
-### Fantasma Character Sprites (GBA Sprites Pack / Team Aqua's Asset Repo)
-- **hyo** — Steven and Wally overworld redraws
-
-### Fantasma Trainer and Overworld Sprites (other community packs)
-- **SPRITEPACK-PLATINUM** (pokeemerald-format D/P sprite pack) and its contributing spriters: the bases for the recast Hoenn leaders' battle and overworld sprites (edited from the Sinnoh leaders, Cynthia and others), plus several Fantasma overworlds such as the HQ crew. The pack asks that all of its spriters be credited.
-- **Kalarie** — the "Anime Butch" overworld used for the Rocket Admin, via the *FRLG Accurate NPC Megapack (Relic Castle Edition)* compiled by **SoulfulLex**.
-- **spilledpizza** — the DP Scientist overworld (via Team Aqua's Asset Repo), the shared base for the Kanto color-coat lab aides.
-
-### Graphical (Unbound style) Start Menu
-Ported by hand into Fantasma from [miriamlefae/pokeemerald-expansion](https://github.com/miriamlefae/pokeemerald-expansion) (branch `feat/usm/upcoming`), a fork of the same rh-hideout pokeemerald-expansion base. Files: `src/unbound_start_menu.c`, `src/save_dialog.c`, and `graphics/unbound_start_menu/`.
-- **Fantasma originals, painted with Gemini at the owner's direction** — the 23 replacement START and Tools icons. Sources are retained in `story/drafts/assets/start_menu_icons_2026_10_17/raw/`.
-- **Brendan** — Debug icon art (shown only in developer builds).
-- **miriamlefae and the USM branch authors** — the graphical start menu framework and code
-
-### Lorenzo's Ledger statues
-- **Fantasma originals, painted with Gemini at the owner's direction** — the five League trophy statues. Sources and approved previews are retained in `story/drafts/assets/trainer_card_2026_10_17/gemini_statues/`.
-
-### Legendary overworld sprites
-- Overworld sprites for Raikou, Entei, Suicune, and Jirachi (upgraded to 32x32): HGSS adapted follower sprites by **merrp** and **aarant**, via the [rh-hideout/pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion) project.
-
-## Resources
+## Resources credited by pokeemerald-expansion
+These come with the engine and are credited by its team:
 - [Sugimori Palettes and Sprites](https://www.pokecommunity.com/showthread.php?t=336945)
 - [DS Style Gen VI Sprites](https://www.pokecommunity.com/showthread.php?t=314422)
 - [Gen VII and Beyond Sprites](https://www.pokecommunity.com/showthread.php?t=368703)
 - Some icons ripped from [Pokemon Gaia](https://www.pokecommunity.com/showthread.php?t=326118)
 - [Data Files](https://www.pokecommunity.com/showthread.php?t=417909)
 - [Complete FireRed Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade)
-- [pokeemerald](https://github.com/pret/pokeemerald/)
+- Mega Evolution overworld sprites: [princess-phoenix](https://www.deviantart.com/princess-phoenix), [larryturbo](https://www.deviantart.com/larryturbo), [kidkatt](https://www.deviantart.com/kidkatt)

@@ -44,12 +44,14 @@ map-to-board routing is `tools/qa/battle_environment_master.json`.
   as credited in the author's `credits.md`. Fantasma preserves gameplay
   attributes and merges its custom town dressing and legacy-town palettes.
 
-## Source: SPRITEPACK-PLATINUM
-A pokeemerald-format D/P (Sinnoh) trainer and overworld sprite pack. License:
-"use as you please, but credit all those below"; the pack's contributing spriters
-are credited collectively in the root `CREDITS.md`. Used as the base art for the
+## Source: Platinum OW/Trainer Sprite Pack (SPRITEPACK-PLATINUM)
+A pokeemerald-format D/P (Sinnoh) trainer and overworld sprite pack by
+**spilledpizza**, with **TheWiggliestJiggliest**, **RichardPT**, **robloxmaster376**,
+**The Spriters Resource** and the **Radiant Quartz / Prismatic Platinum team**
+([PokéCommunity thread](https://www.pokecommunity.com/threads/platinum-ow-trainer-sprite-pack-for-pokeemerald-pokefirered.537257/)).
+License: "use as you please, but credit all those below". Used as the base art for the
 recast Hoenn gym leaders (e.g. Regina from Cynthia, Bruno from Crasher Wake,
-Fortuna from Fantina, Lucia from Maylene, Spettro from Volkner) and the HQ crew. Local copy: the owner's private archive.
+Fortuna from Fantina, Lucia from Maylene, Spettro from Volkner), the Kanto cast and the HQ crew. Local copy: the owner's private archive.
 
 ## Source: FRLG Accurate NPC Megapack (Relic Castle Edition)
 Compiled by **SoulfulLex**, who asks that the original spriters be credited.
@@ -60,7 +62,7 @@ Compiled by **SoulfulLex**, who asks that the original spriters be credited.
 The 23 current START/Tools replacement icons are **Fantasma originals, painted
 with Gemini at the owner's direction**. Approved source JPEGs are retained in
 `story/drafts/assets/start_menu_icons_2026_10_17/raw/`; sampled to a shared
-16-colour GBA palette. **Brendan** (Debug icon, developer builds only), **miriamlefae** and the USM branch
+16-colour GBA palette. **miriamlefae** and the USM branch
 authors (framework) are credited; see root `CREDITS.md`.
 
 ## Lorenzo's Ledger statues

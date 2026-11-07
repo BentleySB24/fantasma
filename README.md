@@ -53,6 +53,8 @@ Start a NEW GAME, save with the in-game SAVE option, and keep your save file for
 
 ## Credits
 
-Fantasma is a one-person project. The concept, every system, the story, the maps and the balance are mine, and I've playtested every build start to finish. I used AI tools to help write code on top of pokeemerald-expansion and to draft some art (portraits, backgrounds) and edit text. Community art and tools are credited in [CREDITS.md](CREDITS.md) and [ASSET_CREDITS.md](ASSET_CREDITS.md). Thank you to everyone listed there.
+Fantasma is a one-person project. The concept, the design, the story direction, the balance and every call on what goes in are mine. I built the new maps myself in Porymap, and I've playtested every build start to finish. I built it with AI tools: they wrote the scripts and most of the code, drafted dialogue that I directed and edited, and painted the battle backgrounds, menus and other new art.
+
+Built on pokeemerald-expansion by Rom Hacking Hideout, with sprites by the Platinum OW/Trainer Sprite Pack team (spilledpizza and others), Kalarie, hyo, merrp and aarant, and tiles by LeoB and Roger Wrightshoe. Full credits: [CREDITS.md](CREDITS.md) and [ASSET_CREDITS.md](ASSET_CREDITS.md). Thank you to everyone listed there.
 
 Fantasma is a free fan project. It is not affiliated with or endorsed by Nintendo, Game Freak, Creatures, or The Pokémon Company.
