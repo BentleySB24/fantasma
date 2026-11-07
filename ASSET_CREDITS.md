@@ -51,7 +51,7 @@ A pokeemerald-format D/P (Sinnoh) trainer and overworld sprite pack by
 ([PokéCommunity thread](https://www.pokecommunity.com/threads/platinum-ow-trainer-sprite-pack-for-pokeemerald-pokefirered.537257/)).
 License: "use as you please, but credit all those below". Used as the base art for the
 recast Hoenn gym leaders (e.g. Regina from Cynthia, Bruno from Crasher Wake,
-Fortuna from Fantina, Lucia from Maylene, Spettro from Volkner), the Kanto cast and the HQ crew. Local copy: the owner's private archive.
+Fortuna from Fantina, Lucia from Maylene, Spettro from Volkner), the Kanto cast and the HQ crew. Local copy: Drive `PKROM/Archive/PKROM root cleanup 2026-08-29/SPRITE PACKS/`.
 
 ## Source: FRLG Accurate NPC Megapack (Relic Castle Edition)
 Compiled by **SoulfulLex**, who asks that the original spriters be credited.
@@ -87,30 +87,30 @@ Sky Pillar's tower-interior battle board is owner-commissioned Gemini art. The
 2026-10-17 ruined-tower painting was replaced by the batch 7 repaint on 2026-10-22
 (8.92); the source is now
 `graphics/fantasma_sources/battle_environment/sky_pillar.png` (owner delivery:
-`sky_pillar.png` (owner's private archive)).
+`My Drive/PKROM/Art Workspace/Battle Backgrounds/sky_pillar.png`).
 `dev_scripts/generate_sky_pillar_battle_environment.py` uses the existing painted
 board pipeline, raises the painting two tiles, reduces the pale floor highlights
 one RGB555 step and writes identical day/night boards. No third-party art was reused.
 
 The five paintings behind the end-credits text (`graphics/credits/scenes/`)
 are Gemini-generated source art commissioned by the owner on 2026-10-13 from
-the prompts in `CREDITS_BACKGROUND_GEMINI_PROMPTS.txt` (owner's private archive). The
+the prompts in `My Drive/PKROM/CREDITS_BACKGROUND_GEMINI_PROMPTS.txt`. The
 originals are kept in `graphics/credits/scenes/source/`;
 `tools/fantasma/credits_scene_convert.py` reduces each to 4bpp tiles with eight
 BG palettes. Not attributed to a third party.
 
 The Hall of Fame backdrop (`graphics/hall_of_fame/scene/`, source in its
 `source/` folder) is owner-commissioned Gemini art from 2026-10-14
-(`HALL_OF_FAME_GEMINI_PROMPT.txt` (owner's private archive)), converted with the same tool.
+(`My Drive/PKROM/HALL_OF_FAME_GEMINI_PROMPT.txt`), converted with the same tool.
 
 Five battle boards (ship_deck, laboratory, hoenn_laboratory, kanto_gym,
 spectrum_hall) were repainted 2026-10-14 from owner-commissioned Gemini art
-(`BATTLE_BACKGROUND_GEMINI_PROMPTS.txt` (owner's private archive)); sources are in
+(`My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS.txt`); sources are in
 `graphics/fantasma_sources/gemini_boards_2026_10_14/` and they are converted
 with `tools/fantasma/bg_convert_multi.py` (two 15-color banks).
 A second batch on the same day repainted the most-seen boards (tall_grass,
 cave, water, rock, hoenn_gym) from
-`BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH2.txt` (owner's private archive); boards with an
+`My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH2.txt`; boards with an
 intro entry layer convert with `--keep-entry`, which recolors bank 4 from the
 new art. The rest of batch 2 (long_grass, building, sand, plain, pond_water)
 followed the same day. The owner ruled the paintings moody enough to need no
@@ -118,19 +118,19 @@ night versions, so tall_grass_night and sand_night are copies of the day
 boards. The Pokéblock feeding screen used to borrow the building board's
 tiles; it now keeps its own frozen copy (`graphics/pokeblock/feeding_bg_tiles.png`).
 Batch 3 (kanto_enforcer, rocket_hideout, stadium, pyre_hall, ghost_tower)
-came from `BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH3.txt` (owner's private archive). The
+came from `My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH3.txt`. The
 stadium is one neutral painting; `tools/fantasma/stadium_tints.py` writes the
 Magma, Aqua, Sidney, Phoebe, Glacia and Drake palettes from it.
 `battle_frontier.pal` is left alone because the Pokéblock feeding screen still
 loads it, and `wallace.pal` is unused.
 Batch 4 (power_plant, ruined_mansion, fantasma_hq, groudon_cave, kyogre_sea)
-came from `BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH4.txt` (owner's private archive).
+came from `My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH4.txt`.
 Batch 5 (underwater, fire_vein, maris_court, regi_tomb, nonna_house) came
-from `BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH5.txt` (owner's private archive).
+from `My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH5.txt`.
 Batch 6 (sanctum, snow, still_ice, depths, sky) came from
-`BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH6.txt` (owner's private archive).
+`My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH6.txt`.
 Redo pass (kanto_enforcer, rocket_hideout, maris_court, underwater,
-nonna_house) came from `BATTLE_BACKGROUND_GEMINI_PROMPTS_REDO.txt` (owner's private archive).
+nonna_house) came from `My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_REDO.txt`.
 2026-10-15 restyle: every remaining off-style board was repainted in the
 violet-teal look (prompts given in chat; sources in
 `graphics/fantasma_sources/gemini_boards_2026_10_14/`), and 17 new location
@@ -142,7 +142,7 @@ Batch 7 (2026-10-22, released in 8.92) repainted the three boards that still bro
 the violet-teal look: kyogre_sea (a drowned sea-god temple), fantasma_zone and
 fantasma_zone_night (the seized Safari preserve) and sky_pillar and
 sky_pillar_night (the tower interior), from
-`BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH7.txt` (owner's private archive). Sources are
+`My Drive/PKROM/BATTLE_BACKGROUND_GEMINI_PROMPTS_BATCH7.txt`. Sources are
 `graphics/fantasma_sources/battle_environment/kyogre_sea.png`,
 `fantasma_zone_front.png` and `sky_pillar.png`; each board is written by its
 `dev_scripts/generate_*_battle_environment.py` generator. The Kyogre generator
