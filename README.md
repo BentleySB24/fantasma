@@ -6,7 +6,7 @@ A Pokémon Emerald ROM hack built on [pokeemerald-expansion](https://github.com/
 
 ![Lorenzo faces Leader Mira](media/01_mira_battle.png)
 
-**[Download the latest patch (rc Water)](https://github.com/BentleySB24/fantasma/releases/latest)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Hackdex page](https://www.hackdex.app/hack/fantasma)
+**[Download on Hackdex (rc Water)](https://www.hackdex.app/hack/fantasma)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Manual patch](https://github.com/BentleySB24/fantasma/releases/latest)
 
 This repository hosts release patches and bug reports. It contains no ROMs and no game data.
 
@@ -38,12 +38,17 @@ Part I is the full Hoenn story. Finish it and Unfair and Nuzlocke unlock for you
 
 ## How to play
 
+**Recommended:** get it from the [Hackdex page](https://www.hackdex.app/hack/fantasma) and follow the steps there. You need a clean **Pokémon Emerald (USA/Europe)** ROM dumped from your own cartridge.
+
+**Manual patching**, if you prefer your own patcher:
+
 1. Download **Fantasma Part I rc Water.zip** from the [latest release](https://github.com/BentleySB24/fantasma/releases/latest).
 2. Patch a clean **Pokémon Emerald (USA/Europe)** ROM dumped from your own cartridge:
    - size 16,777,216 bytes, CRC32 `1F1C08FB`, SHA-1 `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
    - use [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), Floating IPS, or any BPS patcher.
 3. A correctly patched game is 33,554,432 bytes, CRC32 `86E56261`, SHA-1 `b454d2224f67ea39a278aa40cd5e18a4fac998a0`.
-4. Play on **mGBA** (tested). If your emulator asks for a save type, choose **Flash 128K**.
+
+Play on **mGBA** (tested). If your emulator asks for a save type, choose **Flash 128K**.
 
 Start a NEW GAME, save with the in-game SAVE option, and keep your save file for future versions. If you get stuck, START > GUIDE has a recap and an UNSTUCK option.
 
