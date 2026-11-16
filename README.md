@@ -1,4 +1,4 @@
-# Fantasma: Steal Any Ability. Wear Their Faces.
+# Fantasma: Steal Pokémon Abilities. Wear Their Faces.
 
 Play as a ghost that haunts a darker Hoenn. Steal abilities, identities and rob stores. Be the villain.
 
@@ -25,8 +25,8 @@ I've played Pokemon since the 90's and have always had an idea for a rom hack bu
 - 8+ disguises: play as the ghost and steal identities as you move through the gym ranks
 - Wanted system, think GTA. The more evil stuff you do the more the heat rises and hunters come to ambush you!
 - Golden Grave - in game slot machine that gives out items, mints and some special sigils you can't get anywhere else. The hotter your heat, the better the odds.
-- Custom menu with modern graphics and a Tools section: Venom Cup (pre-poison your mons), Grave Dial (edit the time), Spirit Sight (permanent repel)
-- Tons of QoL: Life Flask party heal, improved fly, sneak, portable PC, speed controls, Litwick Candle (auto-Flash), Type Chart item, move relearning anywhere, boss scouting before big fights. Plus a dozen smaller things you'll notice.
+- Custom menu with modern graphics and a Tools section: Venom Cup (pre-poison your mons), Grave Dial (edit the time), Spirit Sight (reveals hidden Pokémon and secrets)
+- Tons of QoL: Life Flask party heal, improved fly, sneak, portable PC, Phantom Charm (a repel or lure that never runs out), speed controls, Litwick Candle (auto-Flash), Type Chart item, move relearning anywhere, boss scouting before big fights. Plus a dozen smaller things you'll notice.
 
 | | |
 |---|---|
