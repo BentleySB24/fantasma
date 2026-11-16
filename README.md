@@ -6,7 +6,7 @@ A Pokémon Emerald ROM hack built on [pokeemerald-expansion](https://github.com/
 
 ![Lorenzo faces Leader Mira](media/01_mira_battle.png)
 
-**[Download the latest patch (rc Water)](https://github.com/BentleySB24/fantasma/releases/latest)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Hackdex page](https://www.hackdex.app/hack/fantasma)
+**[Download the latest patch (rc Water)](https://github.com/BentleySB24/fantasma/releases/latest)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Hackdex page](https://www.hackdex.app/hack/fantasma)
 
 This repository hosts release patches and bug reports. It contains no ROMs and no game data.
 
@@ -50,6 +50,10 @@ Start a NEW GAME, save with the in-game SAVE option, and keep your save file for
 ## Reporting bugs
 
 [Open an issue](https://github.com/BentleySB24/fantasma/issues/new/choose) with the version (rc Water), your emulator and device, where you were and what you were doing, and a screenshot if you can.
+
+## Playtest feedback
+
+Played it? [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md): how far you got, what was fun, and where you got stuck. Short answers are fine, and nothing has to be broken.
 
 ## Credits
 
