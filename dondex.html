@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Don Dex — Fantasma</title>
+  <meta name="description" content="The Don Dex for Fantasma Part I, rc Water build 11.12: 1,576 species and forms with types, stats, abilities, Sigils, evolutions and locations.">
+  <meta name="theme-color" content="#090e14">
+  <meta name="author" content="Don Duskull">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="data-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/media/box-art-duskull.png" width="32" height="32" alt="">
+        <span>FANTASMA</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span>
+      </button>
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-sep"><a href="encounters.html">Encounters</a></li>
+        <li><a href="dondex.html" aria-current="page">Don Dex</a></li>
+        <li><a href="gifts.html">Gifts</a></li>
+        <li><a href="index.html#patch">How to patch</a></li>
+        <li><a href="index.html#discord">Community</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="data-hero">
+      <div class="wrap">
+        <p class="kicker">Part I · rc Water 11.12</p>
+        <h1>Don Dex</h1>
+        <p class="intro">Every species and form in National Dex order: types, base stats, abilities, evolutions, and where to find them in Hoenn. 1,576 rows; 720 have a source in Part I. Click a row to expand it.</p>
+        <div class="data-notes">
+          <p><strong>Sigils.</strong> The Sigils column lists Sigils that carry one of that species’ abilities and can be obtained in Part I. Sigils come from rewards, not from catching the species.</p>
+          <p><strong>Spoilers.</strong> Locations the in-game Dex hides until found, including some Sigil sites, stay hidden until you turn on Show spoilers.</p>
+        </div>
+        <div class="spoiler-bar">
+          <label class="spoiler-toggle">
+            <input type="checkbox" id="show-spoilers">
+            <span>Show spoilers</span>
+          </label>
+          <span class="fine">Secret locations stay hidden until you turn this on.</span>
+        </div>
+        <div class="filters filters-dex">
+          <div class="field">
+            <label for="filter-q">Name</label>
+            <input id="filter-q" type="search" placeholder="Search a name or number…" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="filter-type">Type</label>
+            <select id="filter-type"></select>
+          </div>
+          <div class="field">
+            <label for="filter-ability">Ability</label>
+            <input id="filter-ability" type="text" list="ability-list" placeholder="Any ability" autocomplete="off">
+            <datalist id="ability-list"></datalist>
+          </div>
+          <div class="field">
+            <label for="filter-sigil">Sigil</label>
+            <input id="filter-sigil" type="text" list="sigil-list" placeholder="Any Sigil" autocomplete="off">
+            <datalist id="sigil-list"></datalist>
+          </div>
+          <div class="field field-check">
+            <label class="spoiler-toggle" for="filter-part1">
+              <input type="checkbox" id="filter-part1">
+              <span>Available in Part I</span>
+            </label>
+          </div>
+        </div>
+        <p><button class="btn-tiny" type="button" id="clear-filters">Clear filters</button></p>
+        <p class="results-status" id="results-status" aria-live="polite">Loading the Don Dex…</p>
+        <div class="table-wrap">
+          <table class="data-table dex-table">
+            <thead>
+              <tr>
+                <th>Dex</th>
+                <th>Name</th>
+                <th>Types</th>
+                <th>Abilities</th>
+                <th>Sigils</th>
+                <th>Part I</th>
+              </tr>
+            </thead>
+            <tbody id="dex-body"></tbody>
+          </table>
+        </div>
+        <div class="pager" id="pager" hidden>
+          <button class="btn-tiny" type="button" id="page-prev">Previous</button>
+          <span class="page-label" id="page-label"></span>
+          <button class="btn-tiny" type="button" id="page-next">Next</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="legal">Fantasma is a free fan project by Don Duskull. It is not affiliated with or endorsed by Nintendo, Game Freak, Creatures, or The Pokémon Company. Pokémon and all related names and marks are trademarks of their respective owners. This site and the official releases distribute a patch only. No ROM files are provided.</p>
+      <p class="credit">Built on pokeemerald-expansion by Rom Hacking Hideout. Full credits live in the GitHub repository. Press Start 2P and Cormorant Garamond are licensed under the SIL Open Font License.</p>
+      <p class="data-credit">Data: Fantasma Part I, rc Water build 11.12</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/dondex.js"></script>
+</body>
+</html>

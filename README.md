@@ -1,0 +1,36 @@
+# Fantasma site (draft)
+
+Static, self-contained landing page for **Fantasma**, a Pokémon Emerald ROM hack by Don Duskull.
+
+This folder is a draft. It has not been published or pushed.
+
+## Preview locally
+
+Serve the folder and open `index.html`:
+
+```bash
+python3 -m http.server 8080 --directory /workspace/fantasma-site
+```
+
+Then visit `http://localhost:8080`.
+
+## Publish later (not done)
+
+This layout is ready for GitHub Pages (project or user site). Add the contents of this folder to a `gh-pages` branch or a `/docs` folder, and enable Pages in the repository settings. Do not commit ROM files. After the YouTube trailer is up, replace the placeholder in the Trailer section with the commented iframe and a real video id. After the Discord server exists, point the Discord card at the invite instead of `#discord`.
+
+## Notes
+
+- Official downloads: [Hackdex](https://www.hackdex.app/hack/fantasma) (primary) and [GitHub Releases](https://github.com/BentleySB24/fantasma/releases/latest).
+- Patch format is **BPS**, applied to a clean Pokémon Emerald (USA/Europe) ROM, CRC32 `1F1C08FB`.
+- Box art and stills come from the project's Google Drive and the official GitHub `media/` folder. Marketing GIFs with social captions are stored under `assets/media/` but are not used on the page.
+
+
+## Data pages (draft)
+
+The site also includes three reference pages, still unpublished:
+
+- `encounters.html` — wild encounter tables
+- `dondex.html` — the Don Dex
+- `gifts.html` — gifts, trades and static encounters
+
+They load JSON from `assets/data/`, exported from the 11.12 source (Part I / Hoenn only). Serve the folder over HTTP so the JSON can load.
