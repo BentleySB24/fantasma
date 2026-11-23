@@ -6,7 +6,7 @@ A Pokémon Emerald ROM hack built on [pokeemerald-expansion](https://github.com/
 
 ![Lorenzo faces Leader Mira](media/01_mira_battle.png)
 
-**[Download on Hackdex (rc Water)](https://www.hackdex.app/hack/fantasma)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Manual patch](https://github.com/BentleySB24/fantasma/releases/latest)
+**[Download on Hackdex (rc Grass)](https://www.hackdex.app/hack/fantasma)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Manual patch](https://github.com/BentleySB24/fantasma/releases/latest)
 
 This repository hosts release patches and bug reports. It contains no ROMs and no game data.
 
@@ -42,11 +42,11 @@ Part I is the full Hoenn story. Finish it and Unfair and Nuzlocke unlock for you
 
 **Manual patching**, if you prefer your own patcher:
 
-1. Download **Fantasma Part I rc Water.zip** from the [latest release](https://github.com/BentleySB24/fantasma/releases/latest).
+1. Download **Fantasma Part I rc Grass.zip** from the [latest release](https://github.com/BentleySB24/fantasma/releases/latest).
 2. Patch a clean **Pokémon Emerald (USA/Europe)** ROM dumped from your own cartridge:
    - size 16,777,216 bytes, CRC32 `1F1C08FB`, SHA-1 `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
    - use [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), Floating IPS, or any BPS patcher.
-3. A correctly patched game is 33,554,432 bytes, CRC32 `86E56261`, SHA-1 `b454d2224f67ea39a278aa40cd5e18a4fac998a0`.
+3. A correctly patched game is 33,554,432 bytes, CRC32 `5CA9429D`, SHA-1 `328fb0a4092da128f1c56bf61f26e7f8ffb186e0`.
 
 Play on **mGBA** (tested). If your emulator asks for a save type, choose **Flash 128K**.
 
@@ -54,7 +54,7 @@ Start a NEW GAME, save with the in-game SAVE option, and keep your save file for
 
 ## Reporting bugs
 
-[Open an issue](https://github.com/BentleySB24/fantasma/issues/new/choose) with the version (rc Water), your emulator and device, where you were and what you were doing, and a screenshot if you can.
+[Open an issue](https://github.com/BentleySB24/fantasma/issues/new/choose) with the version (rc Grass), your emulator and device, where you were and what you were doing, and a screenshot if you can.
 
 ## Playtest feedback
 

@@ -39,6 +39,13 @@ none is credited.
   as credited in the author's `credits.md`. Fantasma preserves gameplay
   attributes and merges its custom town dressing and legacy-town palettes.
 
+### Tiles in the ROM, not used by any map
+- **Princess-phoenix** and the **Pokémon Rejuvenation team** — the Pyramid
+  Interior tileset, in the insertable version by **Rahtak**, from **Team Aqua's
+  Asset Repo** (The Great Tileset Exchange). Credit required. It was brought in
+  while the Golden Mine was being designed and is compiled into the game, but
+  no map uses it. The Battle Pyramid's own tiles are Game Freak's.
+
 ## Source: Platinum OW/Trainer Sprite Pack (SPRITEPACK-PLATINUM)
 A pokeemerald-format D/P (Sinnoh) trainer and overworld sprite pack by
 **spilledpizza**, with **TheWiggliestJiggliest**, **RichardPT**, **robloxmaster376**,
