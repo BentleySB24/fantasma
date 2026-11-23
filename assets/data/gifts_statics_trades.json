@@ -49,7 +49,7 @@
   "reachable": true,
   "hidden_until_found": false,
   "note": "",
-  "source": "data/maps/MtPyre_Summit/scripts.inc:196"
+  "source": "data/maps/MtPyre_Summit/scripts.inc:231"
  },
  {
   "kind": "gift",
@@ -102,6 +102,58 @@
   "hidden_until_found": false,
   "note": "Steven's marked Ditto Egg",
   "source": "data/maps/MossdeepCity_StevensHouse/scripts.inc"
+ },
+ {
+  "kind": "gift egg",
+  "species": "Applin",
+  "species_key": "SPECIES_APPLIN",
+  "level": "",
+  "location": "Route 117 / Pokemon Day Care",
+  "map": "Route117_PokemonDayCare",
+  "catchable": true,
+  "reachable": true,
+  "hidden_until_found": true,
+  "note": "The Maris Nursery robbery: you take one of the four eggs",
+  "source": "data/maps/Route117_PokemonDayCare/scripts.inc:229"
+ },
+ {
+  "kind": "gift egg",
+  "species": "Mudkip",
+  "species_key": "SPECIES_MUDKIP",
+  "level": "",
+  "location": "Route 117 / Pokemon Day Care",
+  "map": "Route117_PokemonDayCare",
+  "catchable": true,
+  "reachable": true,
+  "hidden_until_found": true,
+  "note": "The Maris Nursery robbery: you take one of the four eggs",
+  "source": "data/maps/Route117_PokemonDayCare/scripts.inc:216"
+ },
+ {
+  "kind": "gift egg",
+  "species": "Nacli",
+  "species_key": "SPECIES_NACLI",
+  "level": "",
+  "location": "Route 117 / Pokemon Day Care",
+  "map": "Route117_PokemonDayCare",
+  "catchable": true,
+  "reachable": true,
+  "hidden_until_found": true,
+  "note": "The Maris Nursery robbery: you take one of the four eggs",
+  "source": "data/maps/Route117_PokemonDayCare/scripts.inc:255"
+ },
+ {
+  "kind": "gift egg",
+  "species": "Pawniard",
+  "species_key": "SPECIES_PAWNIARD",
+  "level": "",
+  "location": "Route 117 / Pokemon Day Care",
+  "map": "Route117_PokemonDayCare",
+  "catchable": true,
+  "reachable": true,
+  "hidden_until_found": true,
+  "note": "The Maris Nursery robbery: you take one of the four eggs",
+  "source": "data/maps/Route117_PokemonDayCare/scripts.inc:242"
  },
  {
   "kind": "fossil revival",
@@ -218,7 +270,7 @@
   "reachable": true,
   "hidden_until_found": false,
   "note": "",
-  "source": "data/maps/LittlerootTown/scripts.inc:3658"
+  "source": "data/maps/LittlerootTown/scripts.inc:3682"
  },
  {
   "kind": "static encounter",
@@ -231,7 +283,7 @@
   "reachable": true,
   "hidden_until_found": false,
   "note": "",
-  "source": "data/maps/NewMauville_Inside/scripts.inc:312"
+  "source": "data/maps/NewMauville_Inside/scripts.inc:313"
  },
  {
   "kind": "static encounter",
@@ -426,7 +478,7 @@
   "reachable": true,
   "hidden_until_found": false,
   "note": "Fought and reaved, never caught",
-  "source": "data/maps/PetalburgWoods/scripts.inc:646"
+  "source": "data/maps/PetalburgWoods/scripts.inc:644"
  },
  {
   "kind": "god battle",

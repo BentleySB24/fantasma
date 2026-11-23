@@ -1,0 +1,28 @@
+The public GitHub release is Fantasma Part I, rc Grass, build 11.57 (tag rc-grass, 23 November 2026). The tables below were exported from the 11.37 source used to stage this site; no further encounter, gift or Don Dex data changes were applied for 11.57.
+
+Fantasma website data: what changed from rc Water 11.12 to rc Grass 11.37
+==========================================================================
+
+Sixteen row changes in all. Everything else in the three data sets is the same as 11.12:
+no species' stats, types, abilities, Sigils or evolutions changed.
+
+Wild encounters (4 changes, all in Lunar Woods, grass)
+  - SHROOMISH added: levels 4-6, 20%, by day and at night (two new rows).
+  - TEDDIURSA drops from 40% to 20%, by day and at night (two changed rows).
+
+Gifts, statics and trades (4 new rows)
+  - Route 117 / Pokemon Day Care, gift eggs: MUDKIP, APPLIN, PAWNIARD, NACLI.
+    They come from a new robbery, The Maris Nursery: the player takes one of the four eggs.
+
+Don Dex, "where to find" only (8 species)
+  - Shroomish: Lunar Woods added.
+  - Breloom: its family is now first found in Lunar Woods (was Petalburg Woods).
+  - Mudkip, Applin, Pawniard, Nacli: "Route 117 / Pokemon Day Care: Gift Egg" added.
+  - Marshtomp, Swampert: the family's first source now reads Route 117 / Pokemon Day Care.
+
+Files
+  changes_11.12_to_11.37.csv   one line per added row or changed field, with old and new values
+  changes_11.12_to_11.37.json  the same changes with the full new row attached
+
+How to apply them: either edit the sixteen rows by hand from the CSV, or replace the three
+11.12 files with the full 11.37 files in this folder; both give the same result.

@@ -1,18 +1,21 @@
-Fantasma rc Water 11.12: data for the website
+The public GitHub release is labeled rc Grass build 11.57 (23 November 2026). This data folder was built from the 11.37 source, as described below; the public patch uses CRC32 5CA9429D.
+
+Fantasma rc Grass 11.37: data for the website
 =============================================
 
-Built on 2026-11-22 from the 11.12 source (commit 331f95b460), the same source the public
-"Fantasma 11.12 Part I PUBLIC" ROM was built from. Each set comes as CSV and as JSON with the
+Built on 2026-11-22 from the 11.37 source (commit d5a878794c), the same source the
+"Fantasma 11.37 Part I PUBLIC" ROM was built from. This is the full set for 11.37; the changes
+since rc Water 11.12 are listed in CHANGES.txt and in changes_11.12_to_11.37 (CSV and JSON). Each set comes as CSV and as JSON with the
 same rows (the JSON keeps lists as lists).
 
 Scope: Part I, which is Hoenn. Kanto and the Sevii Islands (Part II) are left out on purpose.
 
-Checked against the public ROM file itself: all 1,576 species rows (six base stats, both types,
+Checked against the 11.37 Part I ROM file itself: all 1,576 species rows (six base stats, both types,
 three ability slots) match the bytes in the ROM, and all 684 Hoenn encounter tables match
 src/data/wild_encounters.json.
 
 
-1. wild_encounters  (3,303 rows, 119 areas)
+1. wild_encounters  (3,305 rows, 119 areas)
 -------------------------------------------
 One row per area, method, time of day and species.
 
@@ -63,12 +66,12 @@ Gods (the legendary boss fights) have no source: they are fought and reaved, nev
 A few species are listed only in Altering Cave "Mystery Gift" sets; the text says so.
 
 
-3. gifts_statics_trades  (37 rows)
+3. gifts_statics_trades  (41 rows)
 ----------------------------------
   kind       gift, gift egg, fossil revival, trade, special fishing, static encounter (can be
              caught), static battle (cannot be caught), god battle (cannot be caught)
   species, species_key, level, location, map
-  catchable, reachable, hidden_until_found, note, source (file and line in the 11.12 source)
+  catchable, reachable, hidden_until_found, note, source (file and line in the 11.37 source)
 
 Spoilers: the god battles and the "hidden_until_found" rows are late-game or secret content.
 SUDOWOODO at the Battle Frontier is in the source but cannot be reached, because the Frontier is

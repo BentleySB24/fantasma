@@ -33,4 +33,4 @@ The site also includes three reference pages, still unpublished:
 - `dondex.html` — the Don Dex
 - `gifts.html` — gifts, trades and static encounters
 
-They load JSON from `assets/data/`, exported from the 11.12 source (Part I / Hoenn only). Serve the folder over HTTP so the JSON can load.
+They load JSON from `assets/data/`, exported from the 11.57 source (Part I / Hoenn only). Serve the folder over HTTP so the JSON can load.

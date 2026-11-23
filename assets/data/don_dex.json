@@ -18148,6 +18148,10 @@
    {
     "text": "Safari Zone / Southwest: grass, any time",
     "secret": false
+   },
+   {
+    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "secret": true
    }
   ]
  },
@@ -18185,8 +18189,8 @@
     "secret": false
    },
    {
-    "text": "Evolve Mudkip (family first found: Safari Zone / Southeast)",
-    "secret": false
+    "text": "Evolve Mudkip (family first found: Route 117 / Pokemon Day Care)",
+    "secret": true
    }
   ]
  },
@@ -18215,8 +18219,8 @@
   "obtainable_in_part_1": true,
   "where_to_find": [
    {
-    "text": "Evolve Marshtomp (family first found: Safari Zone / Southeast)",
-    "secret": false
+    "text": "Evolve Marshtomp (family first found: Route 117 / Pokemon Day Care)",
+    "secret": true
    }
   ]
  },
@@ -19844,6 +19848,10 @@
   "obtainable_in_part_1": true,
   "where_to_find": [
    {
+    "text": "Lunar Woods: grass, any time",
+    "secret": false
+   },
+   {
     "text": "Petalburg Woods: grass, any time",
     "secret": false
    },
@@ -19920,7 +19928,7 @@
     "secret": false
    },
    {
-    "text": "Evolve Shroomish (family first found: Petalburg Woods)",
+    "text": "Evolve Shroomish (family first found: Lunar Woods)",
     "secret": false
    }
   ]
@@ -40177,6 +40185,10 @@
    {
     "text": "Victory Road / 1F: grass, night only",
     "secret": false
+   },
+   {
+    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "secret": true
    }
   ]
  },
@@ -54909,6 +54921,10 @@
    {
     "text": "Safari Zone / Northeast: DexNav hidden, night only",
     "secret": false
+   },
+   {
+    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "secret": true
    }
   ]
  },
@@ -61704,6 +61720,10 @@
    {
     "text": "Seafloor Cavern / Room 2: grass, not at night",
     "secret": false
+   },
+   {
+    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "secret": true
    }
   ]
  },
