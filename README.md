@@ -6,7 +6,7 @@ A Pokémon Emerald ROM hack built on [pokeemerald-expansion](https://github.com/
 
 ![Lorenzo faces Leader Mira](media/01_mira_battle.png)
 
-**[Download on Hackdex (rc Grass)](https://www.hackdex.app/hack/fantasma)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Manual patch](https://github.com/BentleySB24/fantasma/releases/latest)
+**[Download on Hackdex (rc Grass)](https://www.hackdex.app/hack/fantasma)** · [Report a bug](https://github.com/BentleySB24/fantasma/issues/new/choose) · [Leave playtest feedback](https://github.com/BentleySB24/fantasma/issues/new?template=playtest_feedback.md) · [Manual patch](https://github.com/BentleySB24/fantasma/releases/latest) · [Discord](https://discord.gg/83wbBvN7P)
 
 This repository hosts release patches and bug reports. It contains no ROMs and no game data.
 
