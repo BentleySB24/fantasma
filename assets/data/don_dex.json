@@ -9655,7 +9655,7 @@
    },
    {
     "text": "Mossdeep City / Steven's House: Steven's marked Ditto Egg",
-    "secret": false
+    "secret": true
    }
   ]
  },
@@ -17624,7 +17624,7 @@
   "where_to_find": [
    {
     "text": "CELLAR HQ: Story gift",
-    "secret": false
+    "secret": true
    },
    {
     "text": "Evolve Pupitar (family first found: Victory Road / 1F)",
@@ -18150,7 +18150,7 @@
     "secret": false
    },
    {
-    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "text": "Route 117 / Pokemon Day Care: Nursery egg. Take one of the four.",
     "secret": true
    }
   ]
@@ -18189,8 +18189,8 @@
     "secret": false
    },
    {
-    "text": "Evolve Mudkip (family first found: Route 117 / Pokemon Day Care)",
-    "secret": true
+    "text": "Evolve Mudkip (family first found: Safari Zone / Southeast)",
+    "secret": false
    }
   ]
  },
@@ -18219,8 +18219,8 @@
   "obtainable_in_part_1": true,
   "where_to_find": [
    {
-    "text": "Evolve Marshtomp (family first found: Route 117 / Pokemon Day Care)",
-    "secret": true
+    "text": "Evolve Marshtomp (family first found: Safari Zone / Southeast)",
+    "secret": false
    }
   ]
  },
@@ -40187,7 +40187,7 @@
     "secret": false
    },
    {
-    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "text": "Route 117 / Pokemon Day Care: Nursery egg. Take one of the four.",
     "secret": true
    }
   ]
@@ -40700,7 +40700,7 @@
   "where_to_find": [
    {
     "text": "CELLAR HQ: Story gift",
-    "secret": false
+    "secret": true
    },
    {
     "text": "Evolve Zweilous (family first found: Route 120)",
@@ -54923,7 +54923,7 @@
     "secret": false
    },
    {
-    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "text": "Route 117 / Pokemon Day Care: Nursery egg. Take one of the four.",
     "secret": true
    }
   ]
@@ -61722,7 +61722,7 @@
     "secret": false
    },
    {
-    "text": "Route 117 / Pokemon Day Care: Gift Egg",
+    "text": "Route 117 / Pokemon Day Care: Nursery egg. Take one of the four.",
     "secret": true
    }
   ]

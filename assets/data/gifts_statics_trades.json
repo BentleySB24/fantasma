@@ -8,7 +8,7 @@
   "map": "FantasmaHqMainRoom2",
   "catchable": true,
   "reachable": true,
-  "hidden_until_found": false,
+  "hidden_until_found": true,
   "note": "From the ECOLOGIST in the HQ",
   "source": "data/maps/FantasmaHqMainRoom2/scripts.inc:257"
  },
@@ -21,7 +21,7 @@
   "map": "FantasmaHqMainRoom2",
   "catchable": true,
   "reachable": true,
-  "hidden_until_found": false,
+  "hidden_until_found": true,
   "note": "From the ECOLOGIST in the HQ",
   "source": "data/maps/FantasmaHqMainRoom2/scripts.inc:281"
  },
@@ -99,7 +99,7 @@
   "map": "MossdeepCity_StevensHouse",
   "catchable": true,
   "reachable": true,
-  "hidden_until_found": false,
+  "hidden_until_found": true,
   "note": "Steven's marked Ditto Egg",
   "source": "data/maps/MossdeepCity_StevensHouse/scripts.inc"
  },
