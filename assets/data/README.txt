@@ -1,4 +1,4 @@
-The public GitHub release is labeled rc Grass build 11.65 (updated 24 November 2026; it was 11.57 on 23 November); the public patch uses CRC32 E784E96B. This data folder was built from the 11.37 source, as described below, and its Don Dex lines were then brought up to 11.57. Wild encounters and gifts did not change between 11.37 and 11.57.
+The public GitHub release is labeled rc Grass build 11.66 (updated 24 November 2026; it was 11.57 on 23 November); the public patch uses CRC32 057C05E5. This data folder was built from the 11.37 source, as described below, and its Don Dex lines were then brought up to 11.57. Wild encounters and gifts did not change between 11.37 and 11.57.
 
 Fantasma rc Grass 11.37: data for the website
 =============================================

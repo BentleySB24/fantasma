@@ -1,7 +1,7 @@
 Fantasma website data: what changed from rc Water 11.12 to rc Grass 11.57
 ==========================================================================
 
-The public release is Fantasma Part I, rc Grass, build 11.65 (tag rc-grass, first published 23 November 2026 as build 11.57 and updated 24 November 2026). None of this data changed between 11.57 and 11.65.
+The public release is Fantasma Part I, rc Grass, build 11.66 (tag rc-grass, first published 23 November 2026 as build 11.57 and updated 24 November 2026). None of this data changed between 11.57 and 11.66.
 Fourteen rows changed since rc Water. No species' stats, types, abilities, Sigils or evolutions changed.
 
 Wild encounters (4 changes, all in Lunar Woods, grass)
