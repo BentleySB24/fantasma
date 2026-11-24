@@ -433,6 +433,10 @@ h3 {
   height: 100%;
   border: 0;
 }
+video.trailer-embed {
+  object-fit: contain;
+  background: var(--bg);
+}
 .trailer-note {
   margin: 0.9rem 0 0;
   color: var(--bone-dim);

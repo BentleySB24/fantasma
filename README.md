@@ -16,7 +16,7 @@ Then visit `http://localhost:8080`.
 
 ## Publish later (not done)
 
-This layout is ready for GitHub Pages (project or user site). Add the contents of this folder to a `gh-pages` branch or a `/docs` folder, and enable Pages in the repository settings. Do not commit ROM files. After the YouTube trailer is up, replace the placeholder in the Trailer section with the commented iframe and a real video id. After the Discord server exists, point the Discord card at the invite instead of `#discord`.
+This layout is ready for GitHub Pages (project or user site). Add the contents of this folder to a `gh-pages` branch or a `/docs` folder, and enable Pages in the repository settings. Do not commit ROM files. The rc Grass trailer is self-hosted in the Trailer section (`#trailer`).
 
 ## Notes
 
