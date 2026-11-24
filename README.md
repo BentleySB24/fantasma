@@ -46,7 +46,7 @@ Part I is the full Hoenn story. Finish it and Unfair and Nuzlocke unlock for you
 2. Patch a clean **Pokémon Emerald (USA/Europe)** ROM dumped from your own cartridge:
    - size 16,777,216 bytes, CRC32 `1F1C08FB`, SHA-1 `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
    - use [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), Floating IPS, or any BPS patcher.
-3. A correctly patched game is 33,554,432 bytes, CRC32 `E784E96B`, SHA-1 `e93d01cc47e2deddbe9854cdd61a8c821271a4ea`.
+3. A correctly patched game is 33,554,432 bytes, CRC32 `057C05E5`, SHA-1 `4221c91f0149b799322ec9db16b2cd0b8f1cdbfd`.
 
 Play on **mGBA** (tested). If your emulator asks for a save type, choose **Flash 128K**.
 
