@@ -4,7 +4,8 @@
   --bg-alt: #101019;      /* alternate sections, flat, no gradient */
   --text: #f2f0ea;
   --muted: #b9b7c9;       /* subcopy only */
-  --accent: #e8c15a;      /* the one accent: download button, links, focus */
+  --accent: #b292ff;      /* the one accent: download button, links, focus */
+  --accent-hover: #c6aeff; /* the button under the pointer: the accent, a little lighter */
   --hair: rgba(242, 240, 234, 0.08);
   --text-width: 680px;
   --shot-width: 1200px;
@@ -96,7 +97,7 @@ h2 { font-size: clamp(28px, 7.6vw, 32px); line-height: 1.12; }
   border-radius: 999px;
   font-size: 17px; font-weight: 500;
 }
-.button:hover { text-decoration: none; background: #f0cd6f; }
+.button:hover { text-decoration: none; background: var(--accent-hover); }
 .link { display: inline-flex; align-items: center; min-height: 48px; font-size: 17px; }
 .link::after { content: "\203A"; margin-left: 0.35em; font-size: 1.15em; line-height: 1; }
 
