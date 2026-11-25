@@ -1,404 +1,302 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fantasma — A Pokémon Emerald ROM hack by Don Duskull</title>
-  <meta name="description" content="Fantasma is a free Pokémon Emerald ROM hack by Don Duskull. Play as Lorenzo della Pira, Il Fantasma: steal abilities, wear stolen faces, and haunt a darker Hoenn. Part I, rc Grass, is out now.">
-  <meta name="theme-color" content="#090e14">
-  <meta name="author" content="Don Duskull">
-  <meta property="og:title" content="Fantasma — Steal Pokémon Abilities. Wear Their Faces.">
-  <meta property="og:description" content="A free Pokémon Emerald ROM hack by Don Duskull. Play as the ghost who haunts Hoenn. Part I, rc Grass, is out now.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/media/box-art.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="assets/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FANTASMA - Steal abilities. Wear faces. Rob Hoenn.</title>
+<meta name="description" content="FANTASMA is a free Pokemon Emerald villain ROM hack. Play the ghost. Steal any ability and put it on any Pokemon. Full Hoenn story, 100+ sigils, 50+ bosses.">
+<link rel="canonical" href="https://fantasmaromhack.com/">
+<meta name="theme-color" content="#0b0b12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FANTASMA">
+<meta property="og:title" content="FANTASMA - Steal abilities. Wear faces. Rob Hoenn.">
+<meta property="og:description" content="FANTASMA is a free Pokemon Emerald villain ROM hack. Play the ghost. Steal any ability and put it on any Pokemon. Full Hoenn story, 100+ sigils, 50+ bosses.">
+<meta property="og:url" content="https://fantasmaromhack.com/">
+<meta property="og:image" content="https://fantasmaromhack.com/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="FANTASMA cover art">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FANTASMA - Steal abilities. Wear faces. Rob Hoenn.">
+<meta name="twitter:description" content="FANTASMA is a free Pokemon Emerald villain ROM hack. Play the ghost. Steal any ability and put it on any Pokemon. Full Hoenn story, 100+ sigils, 50+ bosses.">
+<meta name="twitter:image" content="https://fantasmaromhack.com/assets/img/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" as="image" type="image/webp" media="(max-aspect-ratio: 5/4)" imagesrcset="assets/img/hero-tall-720.webp 720w, assets/img/hero-tall-1080.webp 1080w" imagesizes="100vw">
+<link rel="preload" as="image" type="image/webp" media="(min-aspect-ratio: 5/4)" imagesrcset="assets/img/hero-wide-1280.webp 1280w, assets/img/hero-wide-2050.webp 2050w" imagesizes="100vw">
+<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="nav" id="top">
-    <div class="nav-inner">
-      <a class="brand" href="#top">
-        <img src="assets/media/box-art-duskull.png" width="32" height="32" alt="">
-        <span>FANTASMA</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
-        <span></span>
-      </button>
-      <ul class="nav-links" id="site-nav">
-        <li><a href="#trailer">Trailer</a></li>
-        <li><a href="#premise">Premise</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#patch">How to patch</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#discord">Community</a></li>
-        <li class="nav-sep"><a href="encounters.html">Encounters</a></li>
-        <li><a href="dondex.html">Don Dex</a></li>
-        <li><a href="gifts.html">Gifts</a></li>
-      </ul>
-    </div>
-  </header>
 
-  <main id="main">
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="kicker">A Pokémon Emerald ROM hack</p>
-          <h1>FANTASMA</h1>
-          <p class="tagline">Steal Pokémon Abilities. Wear Their Faces.</p>
-          <p class="lede">Play as a ghost that haunts a darker Hoenn. Steal abilities, identities and rob stores. Be the villain.</p>
-          <div class="meta-row">
-            <span class="chip">Part I · rc Grass</span>
-            <span class="chip">Build 11.66</span>
-            <span class="chip">23 Nov 2026</span>
-            <span class="chip">Free BPS patch</span>
-          </div>
-          <div class="cta">
-            <a class="btn btn-primary" href="https://www.hackdex.app/hack/fantasma">Download on Hackdex</a>
-            <a class="btn btn-secondary" href="https://github.com/BentleySB24/fantasma/releases/latest">GitHub Releases</a>
-          </div>
-          <p class="fine">By Don Duskull. This site does not host or distribute ROM files. You need a clean Pokémon Emerald (USA/Europe) ROM dumped from your own cartridge.</p>
-        </div>
-        <div class="cover">
-          <img src="assets/media/box-art.png" width="1024" height="1024" alt="Fantasma box art: Duskull under the carved-stone FANTASMA title, in purple mist.">
-        </div>
-      </div>
-    </section>
+<!--
+  NEW RELEASE: the version name and date appear in three places, each marked RELEASE below.
+    1. Hero, the small line under the buttons
+    2. How to play, step 1
+    3. Updates, the first entry (add the new entry above the old ones)
+  tools/new_release.py changes all three in one go. The download buttons point at the GitHub
+  releases page, which always lists the newest release first; change the link target only if
+  that ever stops being true.
+-->
 
-    <section id="trailer">
-      <div class="wrap">
-        <p class="section-label">Watch</p>
-        <h2>Trailer</h2>
-        <div class="trailer-slot">
-          <video class="trailer-embed" controls preload="metadata" playsinline poster="assets/media/fantasma-rc-grass-trailer.jpg" title="Fantasma rc Grass trailer">
-            <source src="assets/media/fantasma-rc-grass-trailer.mp4?v=1165" type="video/mp4">
-          </video>
-        </div>
-        <p class="trailer-note">rc Grass trailer</p>
-      </div>
-    </section>
+<a class="skip" href="#main">Skip to content</a>
 
-    <section id="premise">
-      <div class="wrap">
-        <p class="section-label">The story</p>
-        <h2>Premise</h2>
-        <p class="intro">You play Lorenzo della Pira, a ghost known as Il Fantasma. Hoenn does not need a hero from you. It will learn to fear you.</p>
-        <p class="intro">You begin as a bare ghost. Defeat trainers and take their abilities as Sigils, then stitch those Sigils onto any Pokémon in your party. Steal the faces of Gym Leaders and the Don, and walk their towns as someone else. People answer the identity standing in front of them. Word of the Fantasma spreads, the heat rises, and hunters come to bring you in.</p>
-        <p class="intro" style="margin-bottom:0">Part I is the full Hoenn story: the League, the post-League God Hunt, and its own ending. Finish it and Unfair and Nuzlocke unlock for your next run. Part II, set in Kanto, is in development.</p>
-      </div>
-    </section>
+<header class="site-header" id="top">
+  <a class="wordmark" href="#play" aria-label="FANTASMA, back to top">FANTASMA</a>
+  <nav class="nav" aria-label="Sections">
+    <a href="#play">Play</a>
+    <a href="#sigils">Sigils</a>
+    <a href="#features">Features</a>
+    <a href="#how-to-play">How to play</a>
+    <a href="#updates">Updates</a>
+  </nav>
+  <a class="header-download" href="https://github.com/BentleySB24/fantasma/releases">Download</a>
+</header>
 
-    <section id="features">
-      <div class="wrap">
-        <p class="section-label">What you can do</p>
-        <h2>Features</h2>
-        <p class="intro">Built on pokeemerald-expansion.</p>
-        <div class="feature-grid">
-          <article class="card">
-            <h3>Sigils — steal any ability</h3>
-            <p>More than 100 Sigil items, each a stolen ability, used like a nature mint. Put Huge Power on a Slaking or Volt Absorb on a Gyarados. Enemies fight fire with fire, and some wear custom abilities of their own.</p>
-          </article>
-          <article class="card">
-            <h3>Disguises — wear their faces</h3>
-            <p>Eight or more disguises. Play as the ghost, or steal identities as you move through the gym ranks. Townspeople, trainers and fallen Gym members respond to the face you wear.</p>
-          </article>
-          <article class="card">
-            <h3>A wanted system</h3>
-            <p>The more evil you do, the more the heat rises, and hunters come to ambush you. Think of it as a wanted level: Hoenn does not just watch. It hunts.</p>
-          </article>
-          <article class="card">
-            <h3>Original maps and quests</h3>
-            <p>Handmade in Porymap: Lunar Woods, Bellgrave Abbey and the Cellar HQ. Rob the mart, crack the Game Corner vault, hunt down Hoenn’s gods after the League, and a run of side stories.</p>
-          </article>
-          <article class="card">
-            <h3>Golden Grave</h3>
-            <p>An in-game slot machine that pays out items, mints and some special Sigils you cannot get anywhere else. The hotter your heat, the better the odds.</p>
-          </article>
-          <article class="card">
-            <h3>Fifty-plus boss battles</h3>
-            <p>Gym Leaders, the League, hunters, and the gods of the post-game hunt. Vanilla difficulty uses level caps. The in-game Guide can scout a boss before a required fight.</p>
-          </article>
-          <article class="card">
-            <h3>Little grind, a Memory Altar</h3>
-            <p>Cap Candy, level catch-up, EV Ashes and IV Salts (like bottle caps). The Memory Altar teaches level-up, TM, egg and move tutor moves in one place.</p>
-          </article>
-          <article class="card">
-            <h3>Tools and quality of life</h3>
-            <p>A custom menu with Venom Cup (pre-poison your party), Grave Dial (edit the time) and Spirit Sight (reveals hidden Pokémon and secrets). Life Flask party heals, improved Fly, sneak, a portable PC, Phantom Charm (a repel or lure that never runs out), speed controls, Litwick Candle (auto-Flash), a Type Chart item, move relearning anywhere, and boss scouting.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+<main id="main">
 
-    <section id="gallery">
-      <div class="wrap">
-        <p class="section-label">Look</p>
-        <h2>Screenshots</h2>
-        <div class="gallery">
-          <a class="shot" href="assets/media/mira-battle.png" data-caption="Lorenzo is challenged by Leader Mira.">
-            <figure>
-              <img src="assets/media/mira-battle.png" width="960" height="640" alt="Lorenzo, a coat-wearing ghost, faces Leader Mira in a gothic gym.">
-              <figcaption>Challenged by Leader Mira</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/sigils-in-the-bag.gif" data-caption="Sigils in the bag, ready to stitch onto a party Pokémon.">
-            <figure>
-              <img src="assets/media/sigils-in-the-bag.gif" width="960" height="640" alt="The bag open to a list of Sigil items.">
-              <figcaption>Sigils in the bag</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/huge-power-slaking.png" data-caption="A Slaking wearing the Huge Power Sigil.">
-            <figure>
-              <img src="assets/media/huge-power-slaking.png" width="960" height="640" alt="A Slaking in battle after receiving the Huge Power ability.">
-              <figcaption>Huge Power Slaking</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/wearing-miras-face.png" data-caption="Walking Rustboro in Mira’s stolen face.">
-            <figure>
-              <img src="assets/media/wearing-miras-face.png" width="960" height="640" alt="A townsperson outside the gym addresses Lorenzo as Leader Mira.">
-              <figcaption>A stolen face in Rustboro</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/frightened-townsperson.png" data-caption="Townspeople react when the bare ghost walks in.">
-            <figure>
-              <img src="assets/media/frightened-townsperson.png" width="960" height="640" alt="A startled clerk offers an Oran Berry, insisting it is not an offering.">
-              <figcaption>Hoenn is afraid of you</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/hunter-battle.png" data-caption="Raise the heat and hunters come to ambush you.">
-            <figure>
-              <img src="assets/media/hunter-battle.png" width="960" height="640" alt="A battle against a hunter sent to bring the Fantasma in.">
-              <figcaption>They will hunt you</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/mart-robbery.png" data-caption="One of the original quests: rob the mart.">
-            <figure>
-              <img src="assets/media/mart-robbery.png" width="960" height="640" alt="The interior of a Poké Mart during a robbery.">
-              <figcaption>Rob the mart</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/golden-grave.gif" data-caption="The Golden Grave, an in-game slot machine. Hotter heat, better odds.">
-            <figure>
-              <img src="assets/media/golden-grave.gif" width="960" height="640" alt="The Golden Grave slot machine spinning its reels.">
-              <figcaption>Golden Grave</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/lunar-woods.png" data-caption="Lunar Woods, an original map handmade in Porymap.">
-            <figure>
-              <img src="assets/media/lunar-woods.png" width="960" height="640" alt="A dark, original woodland map from Fantasma.">
-              <figcaption>Lunar Woods</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/fly-map.gif" data-caption="The improved Fly map.">
-            <figure>
-              <img src="assets/media/fly-map.gif" width="960" height="640" alt="The Fly map with a moving cursor across Hoenn.">
-              <figcaption>Fly map</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/trainer-card.gif" data-caption="The trainer card, including the Hoenn Gyms shelf.">
-            <figure>
-              <img src="assets/media/trainer-card.gif" width="960" height="640" alt="The trainer card flipping to show Gym progress.">
-              <figcaption>Trainer card</figcaption>
-            </figure>
-          </a>
-          <a class="shot" href="assets/media/flash-fire.png" data-caption="A stolen Flash Fire Sigil, one of the first abilities the game teaches you to take.">
-            <figure>
-              <img src="assets/media/flash-fire.png" width="960" height="640" alt="Dialogue announcing that the Flash Fire Sigil has been obtained.">
-              <figcaption>A stolen Flash Fire Sigil</figcaption>
-            </figure>
-          </a>
-        </div>
-      </div>
-    </section>
+<!-- 1. HERO -->
+<section class="hero" id="play">
+  <!-- The cover art carries the FANTASMA wordmark, so the headline itself is read out but not drawn twice. -->
+  <h1 class="visually-hidden">FANTASMA</h1>
 
-    <section id="patch">
-      <div class="wrap">
-        <p class="section-label">Get it running</p>
-        <h2>How to patch</h2>
-        <p class="intro">Recommended: use the <a href="https://www.hackdex.app/hack/fantasma">Hackdex page</a> and follow the steps there. Your ROM stays in your browser. If you would rather patch by hand, use the steps below. This site never gives you a ROM.</p>
-        <ol class="steps">
-          <li>Download <strong>Fantasma Part I rc Grass.zip</strong> from the <a href="https://github.com/BentleySB24/fantasma/releases/latest">latest GitHub release</a>, or patch through <a href="https://www.hackdex.app/hack/fantasma">Hackdex</a>.</li>
-          <li>Obtain a clean <strong>Pokémon Emerald (USA/Europe)</strong> ROM dumped from your own cartridge. It should be 16,777,216 bytes, with CRC32 <strong>1F1C08FB</strong>.</li>
-          <li>Apply the <strong>.bps</strong> patch with <a href="https://www.marcrobledo.com/RomPatcher.js/">Rom Patcher JS</a>, Floating IPS, or any BPS patcher.</li>
-          <li>Confirm the patched game is 33,554,432 bytes, CRC32 <strong>5CA9429D</strong>.</li>
-          <li>Play on <strong>mGBA</strong> (tested). If your emulator asks for a save type, choose <strong>Flash 128K</strong>.</li>
-          <li>Start a <strong>NEW GAME</strong>, or keep an rc Water save and choose <strong>CONTINUE</strong>. Save with the in-game SAVE option and keep that save for later versions. If you get stuck, START &gt; GUIDE has a recap and an UNSTUCK option.</li>
-        </ol>
-        <div class="checks">
-          <div class="check">
-            <h3>Base ROM</h3>
-            <dl>
-              <dt>File</dt><dd>Pokémon Emerald (USA/Europe)</dd>
-              <dt>Size</dt><dd>16,777,216 bytes</dd>
-              <dt>CRC32</dt><dd>1F1C08FB</dd>
-              <dt>SHA-1</dt><dd>f3ae088181bf583e55daf962a92bb46f4f1d07b7</dd>
-            </dl>
-          </div>
-          <div class="check">
-            <h3>Patched game (rc Grass)</h3>
-            <dl>
-              <dt>Size</dt><dd>33,554,432 bytes</dd>
-              <dt>CRC32</dt><dd>5CA9429D</dd>
-              <dt>SHA-1</dt><dd>328fb0a4092da128f1c56bf61f26e7f8ffb186e0</dd>
-              <dt>Emulator / save</dt><dd>mGBA · Flash 128K</dd>
-            </dl>
-          </div>
-        </div>
-        <p class="note">Vanilla Emerald saves and saves from other hacks will not work. Coming from rc Water? Keep your save file and choose CONTINUE; rc Water saves load in rc Grass. Your first run uses Vanilla difficulty with level caps. Finish Part I to unlock Unfair and Nuzlocke on a new game from that completed save. Later versions aim to keep Part I saves working.</p>
-      </div>
-    </section>
-
-    <section id="faq">
-      <div class="wrap">
-        <p class="section-label">Questions</p>
-        <h2>FAQ</h2>
-        <div class="faq">
-          <details open>
-            <summary>What is Fantasma?</summary>
-            <p>A free fan-made ROM hack of Pokémon Emerald by Don Duskull. You play Lorenzo della Pira, Il Fantasma: a ghost who steals abilities and identities and takes on a darker Hoenn. Part I, rc Grass (build 11.66).</p>
-          </details>
-          <details>
-            <summary>Do you distribute ROM files?</summary>
-            <p>No. Official downloads are a patch only: Hackdex is the main page, and GitHub Releases is the backup, with patch notes. You must supply a clean Pokémon Emerald (USA/Europe) ROM dumped from your own cartridge.</p>
-          </details>
-          <details>
-            <summary>What patch format should I use?</summary>
-            <p>BPS. The GitHub release is a zip that contains a <code>.bps</code> file. Apply it with <a href="https://www.marcrobledo.com/RomPatcher.js/">Rom Patcher JS</a> or another BPS patcher, or use the built-in patcher on Hackdex.</p>
-          </details>
-          <details>
-            <summary>Is Part I finished? What about Kanto?</summary>
-            <p>Part I is the complete Hoenn story, including the League, the God Hunt and a Part I ending. After the ending you can Continue and keep exploring Hoenn. Part II (Kanto) is in active development. Keeping Part I saves working in later versions is a goal, not a guarantee for Part II.</p>
-          </details>
-          <details>
-            <summary>Which emulator should I use?</summary>
-            <p>mGBA is the tested emulator. If you are asked for a save type, choose Flash 128K. Start a new game, and save with the in-game menu even if you also use emulator save states.</p>
-          </details>
-          <details>
-            <summary>Was this made with AI tools?</summary>
-            <p>Yes. Fantasma is a one-person project by Don Duskull, built with AI-assisted tools. The tools wrote the scripts and most of the code, drafted dialogue that was directed and edited, and painted battle backgrounds, menus and other new art. The concept, design, story direction, custom maps and playtesting are Don Duskull’s.</p>
-          </details>
-          <details>
-            <summary>Where do I report a bug or leave playtest notes?</summary>
-            <p>Open an issue on the <a href="https://github.com/BentleySB24/fantasma/issues">GitHub repository</a>. Include the version (rc Grass), your emulator and device, where you were and what you were doing, and a screenshot if you can. Playtest feedback is welcome even when nothing is broken.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="data">
-      <div class="wrap">
-        <p class="section-label">Reference</p>
-        <h2>Don Dex &amp; encounters</h2>
-        <p class="intro">Wild encounter tables, the Don Dex, and gifts, trades and static encounters for Part I, rc Grass build 11.66. Spoilers stay hidden until you choose to show them.</p>
-        <div class="links">
-          <a class="link-card" href="encounters.html">
-            <p class="name">Wild Encounters</p>
-            <p>3,305 rows across 119 Hoenn areas, filterable by area, method, time and species.</p>
-          </a>
-          <a class="link-card" href="dondex.html">
-            <p class="name">Don Dex</p>
-            <p>1,576 species and forms: types, stats, abilities, Sigils, evolutions and where to find them.</p>
-          </a>
-          <a class="link-card" href="gifts.html">
-            <p class="name">Gifts &amp; Statics</p>
-            <p>Gifts, eggs, fossils, trades, static encounters and the god battles.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="discord">
-      <div class="wrap">
-        <p class="section-label">Find us</p>
-        <h2>Community</h2>
-        <p class="intro">Announcements, bug reports and playtesting live on the Fantasma Discord. Follow along on the channels below too.</p>
-        <div class="links">
-          <a class="link-card" href="https://discord.gg/bBf88ea3tw">
-            <p class="name">Discord</p>
-            <p>Join the Fantasma server: news, bug reports and playtesting.</p>
-          </a>
-          <a class="link-card" href="https://www.instagram.com/donduskull">
-            <p class="name">Instagram</p>
-            <p>instagram.com/donduskull</p>
-          </a>
-          <a class="link-card" href="https://x.com/fantasmarom">
-            <p class="name">X</p>
-            <p>@fantasmarom</p>
-          </a>
-          <div class="link-card soon">
-            <p class="name">TikTok</p>
-            <p>Account coming soon.</p>
-          </div>
-          <a class="link-card" href="https://www.hackdex.app/hack/fantasma">
-            <p class="name">Hackdex</p>
-            <p>Official patch page and the main download.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap">
-      <p class="legal">Fantasma is a free fan project by Don Duskull. It is not affiliated with or endorsed by Nintendo, Game Freak, Creatures, or The Pokémon Company. Pokémon and all related names and marks are trademarks of their respective owners. This site and the official releases distribute a patch only. No ROM files are provided.</p>
-      <p class="credit">Built on pokeemerald-expansion by Rom Hacking Hideout. Full credits live in the GitHub repository. Press Start 2P and Cormorant Garamond are licensed under the SIL Open Font License.</p>
-      <p class="data-credit">Data: Fantasma Part I, rc Grass build 11.66</p>
-    </div>
-  </footer>
-
-  <div class="lightbox" id="lightbox" hidden>
-    <button class="lightbox-close" type="button" aria-label="Close">Close</button>
-    <figure>
-      <img alt="">
-      <p></p>
-    </figure>
+  <div class="hero-media" id="hero-media">
+    <picture>
+      <source media="(max-aspect-ratio: 5/4)" type="image/webp" srcset="assets/img/hero-tall-720.webp 720w, assets/img/hero-tall-1080.webp 1080w" sizes="100vw">
+      <source media="(max-aspect-ratio: 5/4)" srcset="assets/img/hero-tall-720.jpg 720w, assets/img/hero-tall-1080.jpg 1080w" sizes="100vw">
+      <source type="image/webp" srcset="assets/img/hero-wide-1280.webp 1280w, assets/img/hero-wide-2050.webp 2050w" sizes="100vw">
+      <img src="assets/img/hero-wide-2050.jpg" srcset="assets/img/hero-wide-1280.jpg 1280w, assets/img/hero-wide-2050.jpg 2050w" sizes="100vw"
+           width="2050" height="900" alt="FANTASMA cover art" fetchpriority="high" decoding="async">
+    </picture>
+    <!-- Without JavaScript this link opens the trailer in the browser's own player. With it, the trailer plays here. -->
+    <a class="play" id="play-trailer" href="assets/media/fantasma-trailer.mp4">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg>
+      <span>Watch the trailer</span>
+    </a>
   </div>
 
-  <script src="assets/js/common.js"></script>
-  <script>
-    (function () {
-      var box = document.getElementById("lightbox");
-      if (!box) return;
-      var img = box.querySelector("img");
-      var cap = box.querySelector("p");
-      var closeBtn = box.querySelector(".lightbox-close");
+  <div class="hero-cta">
+    <p class="tagline">Steal abilities. Wear faces. Rob Hoenn.</p>
+    <p class="supporting">You play the ghost. A free Pokemon Emerald villain ROM hack. Part I, the full Hoenn story, is complete. Part II, Kanto, is in development.</p>
+    <p class="actions">
+      <a class="button" href="https://github.com/BentleySB24/fantasma/releases">Download on GitHub</a>
+      <a class="link" href="https://www.hackdex.app/hack/fantasma">Download on Hackdex</a>
+    </p>
+    <!-- RELEASE 1 of 3 -->
+    <p class="fine">Latest: <span data-release="name">rc Grass v2</span>, <span data-release="date">Nov 24, 2026</span>. Patches only, no ROMs. Free.</p>
+  </div>
+</section>
 
-      function close() {
-        box.classList.remove("open");
-        box.setAttribute("hidden", "");
-        img.src = "";
-        document.body.style.overflow = "";
-      }
-      function open(src, caption, alt) {
-        img.src = src;
-        img.alt = alt || caption || "";
-        cap.textContent = caption || "";
-        box.removeAttribute("hidden");
-        box.classList.add("open");
-        document.body.style.overflow = "hidden";
-        closeBtn.focus();
-      }
+<!-- 2. SIGILS -->
+<section class="section" id="sigils">
+  <div class="text lead reveal">
+    <h2>Put any ability on any Pokemon.</h2>
+    <p class="sub">Defeat trainers, steal their Pokemon abilities as sigils, then put any ability on any Pokemon. Sigils work like nature mints. Enemies have custom abilities too.</p>
+  </div>
+  <!-- One combo per screen. Each picture is the game's own summary page, filmed on build 11.66. -->
+  <div class="combo">
+    <p class="combo-name reveal"><span class="ability">Huge Power</span> <span class="mon">Slaking</span></p>
+    <figure class="shot narrow reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/combo-slaking-960.webp 960w, assets/img/combo-slaking-1920.webp 1920w" sizes="(min-width: 900px) 840px, 100vw">
+      <img src="assets/img/combo-slaking-960.png" srcset="assets/img/combo-slaking-960.png 960w, assets/img/combo-slaking-1920.png 1920w" sizes="(min-width: 900px) 840px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="Slaking's summary page in the game, with the ability Huge Power">
+    </picture>
+  </figure>
+  </div>
+  <div class="combo">
+    <p class="combo-name reveal"><span class="ability">Volt Absorb</span> <span class="mon">Gyarados</span></p>
+    <figure class="shot narrow reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/combo-gyarados-960.webp 960w, assets/img/combo-gyarados-1920.webp 1920w" sizes="(min-width: 900px) 840px, 100vw">
+      <img src="assets/img/combo-gyarados-960.png" srcset="assets/img/combo-gyarados-960.png 960w, assets/img/combo-gyarados-1920.png 1920w" sizes="(min-width: 900px) 840px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="Gyarados's summary page in the game, with the ability Volt Absorb">
+    </picture>
+  </figure>
+  </div>
+  <div class="combo">
+    <p class="combo-name reveal"><span class="ability">Sheer Force</span> <span class="mon">Gengar</span></p>
+    <figure class="shot narrow reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/combo-gengar-960.webp 960w, assets/img/combo-gengar-1920.webp 1920w" sizes="(min-width: 900px) 840px, 100vw">
+      <img src="assets/img/combo-gengar-960.png" srcset="assets/img/combo-gengar-960.png 960w, assets/img/combo-gengar-1920.png 1920w" sizes="(min-width: 900px) 840px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="Gengar's summary page in the game, with the ability Sheer Force">
+    </picture>
+  </figure>
+  </div>
+  <div class="text reveal">
+    <p class="closing">100+ sigils. Any Pokemon. Any ability. What is the most broken combo you can think of?</p>
+  </div>
+</section>
 
-      document.querySelectorAll(".shot").forEach(function (a) {
-        a.addEventListener("click", function (e) {
-          e.preventDefault();
-          var picture = a.querySelector("img");
-          open(a.getAttribute("href"), a.getAttribute("data-caption"), picture ? picture.alt : "");
-        });
-      });
-      closeBtn.addEventListener("click", close);
-      box.addEventListener("click", function (e) {
-        if (e.target === box) close();
-      });
-      document.addEventListener("keydown", function (e) {
-        if (e.key === "Escape" && box.classList.contains("open")) close();
-      });
-    })();
-  </script>
+<!-- 3. STORY AND WORLD -->
+<section class="section alt" id="features">
+  <div class="text lead reveal">
+    <h2>Play the villain.</h2>
+    <p class="sub">Play as a ghost haunting a darker Hoenn, stealing abilities and identities, and robbing stores. Your starter is the Duskull line.</p>
+  </div>
+  <div class="pair">
+    <p class="statement reveal">Original maps: Lunar Woods, Bellgrave Abbey, and Cellar HQ.</p>
+    <figure class="shot reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/lunar-woods-960.webp 960w, assets/img/lunar-woods-1920.webp 1920w" sizes="(min-width: 1240px) 1200px, 100vw">
+      <img src="assets/img/lunar-woods-960.png" srcset="assets/img/lunar-woods-960.png 960w, assets/img/lunar-woods-1920.png 1920w" sizes="(min-width: 1240px) 1200px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="Lorenzo and Duskull outside a house in Lunar Woods, one of Fantasma's original maps">
+    </picture>
+  </figure>
+  </div>
+  <div class="pair">
+    <p class="statement reveal">Quests include robbing the mart, robbing the Game Corner vault, and hunting Hoenn's gods after the League.</p>
+    <figure class="shot reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/mart-robbery-960.webp 960w, assets/img/mart-robbery-1920.webp 1920w" sizes="(min-width: 1240px) 1200px, 100vw">
+      <img src="assets/img/mart-robbery-960.png" srcset="assets/img/mart-robbery-960.png 960w, assets/img/mart-robbery-1920.png 1920w" sizes="(min-width: 1240px) 1200px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="Lorenzo at a mart counter. The clerk says: We are open. Even to... whatever you are.">
+    </picture>
+  </figure>
+  </div>
+  <div class="pair">
+    <p class="statement reveal">8+ disguises. Wear stolen faces including Leader Mira, and watch NPCs react.</p>
+    <figure class="shot reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/wearing-miras-face-960.webp 960w, assets/img/wearing-miras-face-1920.webp 1920w" sizes="(min-width: 1240px) 1200px, 100vw">
+      <img src="assets/img/wearing-miras-face-960.png" srcset="assets/img/wearing-miras-face-960.png 960w, assets/img/wearing-miras-face-1920.png 1920w" sizes="(min-width: 1240px) 1200px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="Lorenzo wearing Leader Mira's face. An officer says: Leader Mira. The cordon is for the spirit.">
+    </picture>
+  </figure>
+  </div>
+  <div class="pair">
+    <p class="statement reveal">A GTA style Wanted system: rob, raise your heat, and face the hunters the League sends after you.</p>
+    <figure class="shot reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/hunter-battle-960.webp 960w, assets/img/hunter-battle-1920.webp 1920w" sizes="(min-width: 1240px) 1200px, 100vw">
+      <img src="assets/img/hunter-battle-960.png" srcset="assets/img/hunter-battle-960.png 960w, assets/img/hunter-battle-1920.png 1920w" sizes="(min-width: 1240px) 1200px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="A hunter challenges Lorenzo to a battle on a dark forest road">
+    </picture>
+  </figure>
+  </div>
+  <div class="pair">
+    <p class="statement reveal">The protagonist is Lorenzo.</p>
+  </div>
+</section>
+
+<!-- 4. BOSSES AND MODES -->
+<section class="section" id="bosses">
+  <div class="text lead reveal">
+    <h2>50+ boss battles.</h2>
+  </div>
+  <figure class="shot reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/mira-battle-960.webp 960w, assets/img/mira-battle-1920.webp 1920w" sizes="(min-width: 1240px) 1200px, 100vw">
+      <img src="assets/img/mira-battle-960.png" srcset="assets/img/mira-battle-960.png 960w, assets/img/mira-battle-1920.png 1920w" sizes="(min-width: 1240px) 1200px, 100vw"
+           width="1920" height="1280" loading="lazy" decoding="async" alt="A battle begins: You are challenged by Leader Mira">
+    </picture>
+  </figure>
+  <ul class="features">
+    <li class="reveal"><strong>50+ boss battles</strong> <span>Gym leaders, hunters, and Hoenn's gods after the League, with boss scouting and custom abilities on enemies.</span></li>
+    <li class="reveal"><strong>719 Pokemon</strong> <span>Build a team from 719 Pokemon, starting with the Duskull line.</span></li>
+    <li class="reveal"><strong>Minimal grind</strong> <span>Cap Candy, EV Ashes, and IV Salts keep the focus on story and battles, not grind.</span></li>
+    <li class="reveal"><strong>Memory Altar</strong> <span>Revisit what you have stolen.</span></li>
+    <li class="reveal"><strong>Golden Grave</strong> <span>The Golden Grave slot machine.</span></li>
+    <li class="reveal"><strong>Unfair and Nuzlocke modes</strong> <span>Finish Part I to unlock Unfair and Nuzlocke modes.</span></li>
+    <li class="reveal wide"><strong>Custom menu and tools, and extensive quality of life</strong></li>
+  </ul>
+</section>
+
+<!-- 5. HALL OF FAME -->
+<section class="section alt" id="hall-of-fame">
+  <div class="text reveal">
+    <h2>Hall of Fame</h2>
+    <p class="sub">Happy Thanksgiving. I am thankful for Sheer Force Gengar. Welcome to the Hall of Fame.</p>
+  </div>
+  <!--
+    MISSING ASSET: the Hall of Fame team picture (hall-of-fame.jpg, 2007 x 1352) is not on this computer.
+    Save it as assets/img/hall-of-fame.jpg, run "python3 tools/build_assets.py hall", then remove this comment's
+    opening and closing lines so the figure below shows.
+
+  <figure class="shot reveal">
+    <picture>
+      <source type="image/webp" srcset="assets/img/hall-of-fame-960.webp 960w, assets/img/hall-of-fame-2007.webp 2007w" sizes="(min-width: 1240px) 1200px, 100vw">
+      <img src="assets/img/hall-of-fame-960.jpg" srcset="assets/img/hall-of-fame-960.jpg 960w, assets/img/hall-of-fame-2007.jpg 2007w" sizes="(min-width: 1240px) 1200px, 100vw"
+           width="2007" height="1352" loading="lazy" decoding="async" alt="Hall of Fame team with stolen sigil abilities">
+    </picture>
+    <figcaption>Hall of Fame: a Fantasma team built on stolen abilities. Water Bubble, Sheer Force, Huge Power, Drought, Rock Head, Levitate.</figcaption>
+  </figure>
+  -->
+  <ul class="abilities" aria-label="The six sigil abilities on this team">
+    <li class="reveal">Water Bubble</li>
+    <li class="reveal">Sheer Force</li>
+    <li class="reveal">Huge Power</li>
+    <li class="reveal">Drought</li>
+    <li class="reveal">Rock Head</li>
+    <li class="reveal">Levitate</li>
+  </ul>
+</section>
+
+<!-- 6. HOW TO PLAY -->
+<section class="section" id="how-to-play">
+  <div class="text reveal">
+    <h2>How to play</h2>
+  </div>
+  <ol class="steps">
+    <!-- RELEASE 2 of 3 -->
+    <li class="reveal">Download the latest patch, <span data-release="name">rc Grass v2</span>, from GitHub or Hackdex. It is a BPS patch file, not a ROM.</li>
+    <li class="reveal">Apply the patch to a clean Pokemon Emerald ROM you already own, using a BPS patcher.</li>
+    <li class="reveal">Play the patched game on a GBA emulator or a handheld.</li>
+  </ol>
+  <div class="text reveal">
+    <p class="note">Patches only, no ROMs. Fantasma does not provide a ROM.</p>
+    <p class="note">New to patching? The GitHub releases page has the patch files. If you get stuck, ask on Instagram at @fantasmaromhack and I will help.</p>
+    <p class="actions">
+      <a class="button" href="https://github.com/BentleySB24/fantasma/releases">Download on GitHub</a>
+      <a class="link" href="https://www.hackdex.app/hack/fantasma">Download on Hackdex</a>
+    </p>
+  </div>
+</section>
+
+<!-- 7. UPDATES -->
+<section class="section alt" id="updates">
+  <div class="text reveal">
+    <h2>Updates</h2>
+  </div>
+  <ul class="timeline">
+    <!-- RELEASE 3 of 3: add the newest entry directly below this line -->
+    <li class="reveal"><strong>rc Grass v2, Nov 24, 2026:</strong> about 2,600 lines of Part I dialogue rewritten by hand, with a second pass to remove machine written phrasing.</li>
+    <li class="reveal"><strong>rc Grass, Nov 23, 2026:</strong> latest patch on GitHub and Hackdex at the time.</li>
+    <li class="reveal"><strong>rc Water, Nov 15, 2026:</strong> the version covered by Gohan's Tips on Nov 17, 2026.</li>
+    <li class="reveal"><strong>First published Oct 22, 2026 on Hackdex.</strong></li>
+  </ul>
+  <div class="text reveal">
+    <p class="sub">Part II, Kanto, is in active development.</p>
+    <p class="actions">
+      <a class="link" href="https://www.instagram.com/fantasmaromhack">Follow @fantasmaromhack on Instagram</a>
+    </p>
+  </div>
+</section>
+
+<!-- 8. ABOUT AND DISCLOSURE -->
+<section class="section" id="about">
+  <div class="text reveal">
+    <h2>About the game</h2>
+    <p>Fantasma is Italian for ghost. I am Don Duskull, a Pokemon fan since the 90s and a big Gengar fan. I spent six months building, designing, making maps in Porymap, and playtesting Fantasma start to finish.</p>
+    <p>On AI use, plainly: AI tools helped write scripts and most of the code, drafted dialogue I directed and edited, and painted battle backgrounds, menus, and new art. The idea, design, maps, balance, and playtesting are my work, and the dialogue in rc Grass v2 was rewritten by hand. I disclose this because players deserve to know how the game was made.</p>
+    <p class="note">Built on pokeemerald-expansion. Releases are BPS patches, no ROMs.</p>
+    <p class="note">Find Fantasma on <a href="https://www.instagram.com/fantasmaromhack">Instagram @fantasmaromhack</a>, <a href="https://www.youtube.com/watch?v=VedOm_ODreI">Gohan's Tips on YouTube</a>, <a href="https://github.com/BentleySB24/fantasma">GitHub</a>, and <a href="https://www.hackdex.app/hack/fantasma">Hackdex</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- 9. FOOTER -->
+<footer class="site-footer">
+  <p>FANTASMA, a free fan made Pokemon Emerald ROM hack by Don Duskull. Not affiliated with Nintendo, Game Freak, or The Pokemon Company. Patches only, no ROMs.</p>
+  <p class="footer-links">
+    <a href="https://github.com/BentleySB24/fantasma">GitHub</a>
+    <a href="https://www.hackdex.app/hack/fantasma">Hackdex</a>
+    <a href="https://www.instagram.com/fantasmaromhack">Instagram</a>
+  </p>
+</footer>
+
+<script src="js/site.js" defer></script>
 </body>
 </html>

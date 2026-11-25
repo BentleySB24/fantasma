@@ -1,0 +1,251 @@
+/* FANTASMA site. Tokens first; every colour and size on the page comes from here. */
+:root {
+  --bg: #0b0b12;          /* page */
+  --bg-alt: #101019;      /* alternate sections, flat, no gradient */
+  --text: #f2f0ea;
+  --muted: #b9b7c9;       /* subcopy only */
+  --accent: #e8c15a;      /* the one accent: download button, links, focus */
+  --hair: rgba(242, 240, 234, 0.08);
+  --text-width: 680px;
+  --shot-width: 1200px;
+  --pad-x: 24px;
+  --section-pad: 72px;
+  --header-h: 56px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 720px) {
+  :root { --pad-x: 40px; --section-pad: 128px; --header-h: 60px; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-h); -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+@media (min-width: 720px) { body { font-size: 19px; } }
+
+img, video { display: block; max-width: 100%; }
+h1, h2, p, ul, ol, dl, dd, figure { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+
+.skip { position: absolute; left: -9999px; top: 0; padding: 12px 16px; background: var(--accent); color: var(--bg); z-index: 20; }
+.skip:focus { left: 8px; top: 8px; }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: fixed; inset: 0 0 auto 0; z-index: 10;
+  height: var(--header-h);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 var(--pad-x);
+  background: rgba(11, 11, 18, 0.9);
+}
+.wordmark { color: var(--text); font-weight: 500; font-size: 15px; letter-spacing: 0.32em; padding: 14px 0; }
+.wordmark:hover { text-decoration: none; }
+.nav { display: none; gap: 32px; }
+.nav a { color: var(--text); font-size: 14px; padding: 14px 0; }
+.nav a:hover { color: var(--accent); text-decoration: none; }
+.header-download { font-size: 15px; font-weight: 500; padding: 12px 0; min-height: 44px; display: inline-flex; align-items: center; }
+@media (min-width: 860px) {
+  .nav { display: flex; }
+  .header-download { display: none; }
+}
+
+/* ---------- Shared pieces ---------- */
+h1, h2 { font-weight: 500; letter-spacing: -0.015em; text-wrap: balance; }
+h2 { font-size: clamp(28px, 7.6vw, 32px); line-height: 1.12; }
+@media (min-width: 720px) { h2 { font-size: clamp(36px, 4vw, 48px); } }
+.lead h2 { font-size: clamp(34px, 9.6vw, 44px); line-height: 1.05; letter-spacing: -0.025em; }
+@media (min-width: 720px) { .lead h2 { font-size: clamp(56px, 6.4vw, 96px); } }
+.lead .sub { margin-top: 24px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.section { padding: var(--section-pad) var(--pad-x); }
+.section.alt { background: var(--bg-alt); }
+.section.tall { min-height: 100svh; display: flex; flex-direction: column; justify-content: center; }
+.section > * + * { margin-top: 56px; }
+@media (min-width: 720px) { .section > * + * { margin-top: 88px; } }
+
+.text.lead { max-width: 980px; }
+.text.lead .sub { max-width: var(--text-width); margin-left: auto; margin-right: auto; }
+.text { max-width: var(--text-width); margin-left: auto; margin-right: auto; text-align: center; }
+.text > * + * { margin-top: 20px; }
+.text p { text-wrap: pretty; }
+.sub { color: var(--muted); font-size: 19px; }
+@media (min-width: 720px) { .sub { font-size: 21px; } }
+.note { color: var(--text); }
+.fine { color: var(--muted); font-size: 14px; }
+
+.actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 28px; }
+.text > .actions { margin-top: 36px; }
+.button {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 12px 30px;
+  background: var(--accent); color: var(--bg);
+  border-radius: 999px;
+  font-size: 17px; font-weight: 500;
+}
+.button:hover { text-decoration: none; background: #f0cd6f; }
+.link { display: inline-flex; align-items: center; min-height: 48px; font-size: 17px; }
+.link::after { content: "\203A"; margin-left: 0.35em; font-size: 1.15em; line-height: 1; }
+
+/* ---------- 1. Hero ----------
+   The cover art fills the screen from the header down; its edges are melted into the page inside the picture
+   files, so nothing is cropped at any window shape and no gradient is drawn here. */
+.hero {
+  min-height: 100vh; min-height: 100svh;
+  display: flex; flex-direction: column; align-items: center;
+  padding: var(--header-h) 0 28px;
+  text-align: center;
+}
+.hero-media {
+  position: relative;
+  flex: 1 1 auto; min-height: 190px;
+  width: 100%;
+}
+.hero-media picture, .hero-media img, .hero-media video {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+}
+.hero-media img { object-fit: contain; object-position: center top; }
+.hero-media video { object-fit: contain; background: var(--bg); }
+.play {
+  position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 44px; padding: 10px 22px;
+  color: var(--text); font-size: 15px; white-space: nowrap;
+  background: rgba(11, 11, 18, 0.72); border-radius: 999px;
+}
+.play:hover { text-decoration: none; color: var(--accent); }
+.hero-media.playing picture, .hero-media.playing .play { display: none; }
+.hero-cta { max-width: calc(var(--text-width) + 2 * var(--pad-x)); padding: 0 var(--pad-x); margin-top: 14px; }
+.tagline { font-size: clamp(16px, 4.7vw, 24px); font-weight: 500; letter-spacing: -0.01em; color: var(--text); }
+.supporting { margin-top: 10px; color: var(--muted); font-size: 16px; text-wrap: pretty; }
+.hero-cta .actions { margin-top: 14px; }
+.hero-cta .fine { margin-top: 6px; }
+@media (min-width: 720px) {
+  .hero { padding-bottom: 36px; }
+  .hero-cta { margin-top: 10px; }
+  .tagline { font-size: clamp(28px, 2.9vw, 40px); letter-spacing: -0.02em; }
+  .supporting { margin-top: 14px; font-size: 18px; }
+  .hero-cta .actions { margin-top: 22px; }
+  .hero-cta .fine { margin-top: 8px; }
+}
+@media (max-height: 640px) and (max-width: 719px) {
+  .supporting { font-size: 15px; }
+  .hero-cta .actions { margin-top: 8px; gap: 0 28px; }
+}
+
+/* ---------- 2. Sigils: one combo per screen ---------- */
+.combo { min-height: 86svh; display: flex; flex-direction: column; justify-content: center; }
+.combo-name { text-align: center; font-weight: 500; line-height: 0.98; letter-spacing: -0.03em; font-size: clamp(44px, 14vw, 68px); }
+.combo-name span { display: block; }
+.combo-name .ability { color: var(--accent); }
+.combo .shot { margin-top: 36px; }
+.closing { font-size: 22px; line-height: 1.3; font-weight: 500; letter-spacing: -0.01em; color: var(--text); text-wrap: balance; }
+@media (min-width: 900px) {
+  .combo { min-height: 100svh; }
+  .combo-name { font-size: clamp(72px, 8.4vw, 132px); }
+  .combo-name span { display: inline; }
+  .combo .shot { margin-top: 56px; }
+  .closing { font-size: 32px; }
+}
+
+/* ---------- Screenshots: the game's own pixels, enlarged with hard edges ---------- */
+.shot { max-width: var(--shot-width); margin-left: calc(var(--pad-x) * -1); margin-right: calc(var(--pad-x) * -1); }
+.shot img { width: 100%; height: auto; }
+.shot.narrow { max-width: 840px; }
+.shot figcaption { color: var(--muted); font-size: 15px; text-align: center; padding: 16px var(--pad-x) 0; }
+@media (min-width: 900px) { .shot.narrow { margin-left: auto; margin-right: auto; width: 100%; } }
+@media (min-width: 1280px) { .shot { margin-left: auto; margin-right: auto; } }
+.combo .shot, .pair .shot { align-self: center; width: calc(100% + 2 * var(--pad-x)); }
+@media (min-width: 900px) { .combo .shot.narrow { width: 100%; } }
+@media (min-width: 1280px) { .pair .shot { width: 100%; } }
+
+/* ---------- 3. Story: one statement and one picture per screen ---------- */
+.pair { display: flex; flex-direction: column; }
+.statement { max-width: 900px; margin: 0 auto; text-align: center; font-size: 26px; line-height: 1.2; font-weight: 500; letter-spacing: -0.015em; text-wrap: balance; }
+.pair .shot { margin-top: 32px; }
+@media (min-width: 720px) {
+  .statement { font-size: clamp(36px, 3.6vw, 52px); line-height: 1.12; letter-spacing: -0.02em; }
+  .pair .shot { margin-top: 56px; }
+}
+
+/* ---------- 4. Bosses and modes ---------- */
+.features { max-width: 980px; margin-left: auto; margin-right: auto; }
+.features li + li { margin-top: 36px; }
+.features strong { display: block; font-weight: 500; font-size: 26px; line-height: 1.15; letter-spacing: -0.015em; }
+.features span { display: block; margin-top: 6px; color: var(--muted); }
+@media (min-width: 720px) {
+  .features li { display: grid; grid-template-columns: 5fr 7fr; column-gap: 48px; align-items: baseline; }
+  .features li + li { margin-top: 56px; }
+  .features strong { font-size: 40px; letter-spacing: -0.02em; }
+  .features span { margin-top: 0; }
+  .features li.wide { display: block; }
+}
+
+/* ---------- 5. Hall of Fame ---------- */
+.abilities { text-align: center; }
+.abilities li { font-size: 26px; font-weight: 500; line-height: 1.2; letter-spacing: -0.01em; }
+.abilities li + li { margin-top: 18px; }
+@media (min-width: 720px) {
+  .abilities li { font-size: 40px; }
+  .abilities li + li { margin-top: 22px; }
+}
+
+/* ---------- 6. How to play ---------- */
+.steps { max-width: var(--text-width); margin-left: auto; margin-right: auto; counter-reset: step; }
+.steps li { counter-increment: step; position: relative; padding-left: 52px; font-size: 19px; }
+.steps li::before { content: counter(step); position: absolute; left: 0; top: -0.12em; color: var(--accent); font-size: 40px; font-weight: 500; line-height: 1; }
+.steps li + li { margin-top: 32px; }
+@media (min-width: 720px) {
+  .steps li { padding-left: 80px; font-size: 22px; }
+  .steps li::before { font-size: 56px; top: -0.16em; }
+  .steps li + li { margin-top: 44px; }
+}
+
+/* ---------- 7. Updates ---------- */
+.timeline { max-width: var(--text-width); margin-left: auto; margin-right: auto; }
+.timeline li + li { margin-top: 28px; }
+.timeline strong { font-weight: 500; color: var(--text); display: block; }
+.timeline li { color: var(--muted); }
+.timeline li:first-child strong { color: var(--accent); }
+
+/* ---------- 8. About ---------- */
+#about .text { text-align: left; }
+#about h2 { text-align: center; margin-bottom: 36px; }
+
+/* ---------- 9. Footer ---------- */
+.site-footer {
+  padding: 40px var(--pad-x) 56px;
+  border-top: 1px solid var(--hair);
+  color: var(--muted); font-size: 13px; text-align: center;
+}
+.site-footer p { max-width: var(--text-width); margin: 0 auto; }
+.footer-links { margin-top: 12px !important; display: flex; justify-content: center; gap: 28px; }
+.footer-links a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+
+/* ---------- Motion: a short rise on scroll, only with JavaScript and only if motion is welcome ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 360ms ease, transform 360ms ease; }
+  .js .reveal.in { opacity: 1; transform: none; }
+  .js .shot.reveal { transform: scale(0.97); transition-duration: 400ms; }
+  .js .shot.reveal.in { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* More air between the picture-led screens than between ordinary blocks. */
+.section > .pair + .pair, .section > .combo + .combo { margin-top: 88px; }
+@media (min-width: 720px) { .section > .pair + .pair { margin-top: 160px; } .section > .combo + .combo { margin-top: 0; } }
